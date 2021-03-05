@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_LiveData_params" value="1" />
+	<infoitem key="UD_LiveData_param0" value="recordID=1" />
+	<infoitem key="UD_DetailRS1" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:especialista;datatype:string,name:tipo_mandato;datatype:string,name:ing_operador;datatype:string,name:fecha_ingreso;datatype:date,name:date_ingreso;datatype:timestamp,name:visador;datatype:string,name:fecha_visacion;datatype:timestamp,name:estado;datatype:string,name:Contacto1;datatype:string,name:Contacto2;datatype:string" />
+</info>

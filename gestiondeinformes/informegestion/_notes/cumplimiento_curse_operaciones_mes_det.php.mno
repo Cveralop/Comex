@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_LiveData_params" value="1" />
+	<infoitem key="UD_LiveData_param0" value="recordID=1" />
+	<infoitem key="UD_cumplimiento" value="name:id;datatype:int,name:date_ingreso;datatype:date,name:producto;datatype:string,name:evento;datatype:string,name:tipo_operacion;datatype:string,name:recividas;datatype:int,name:cursadas;datatype:int,name:reparadas;datatype:int,name:pendientes;datatype:int,name:pct_cumplimiento;datatype:int" />
+</info>

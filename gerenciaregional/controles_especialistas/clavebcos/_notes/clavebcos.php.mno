@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_clavebcos" value="name:id;datatype:int,name:codigo_swift;datatype:string,name:recivir;datatype:string,name:enviar;datatype:string,name:nombre_banco;datatype:string,name:ciudad;datatype:string,name:codigo_ciudad;datatype:string,name:pais;datatype:string" />
+</info>

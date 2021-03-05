@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="cumplimiento_curse_operaciones_mae.php" server="D:/AppServ/www/comex/" local="130683178583637268" remote="130683178580000000" Dst="-1" />
+<file name="cumplimiento_curse_operaciones_det.php" server="D:/AppServ/www/comex/" local="130683178546884162" remote="130683178540000000" Dst="-1" />
+<file name="operaciones_reparadas_det.php" server="D:/AppServ/www/comex/" local="130597554483750154" remote="130597554480000000" Dst="-1" />
+<file name="operaciones_reparadas_mae.php" server="D:/AppServ/www/comex/" local="130583649158463830" remote="130583649150000000" Dst="-1" />
+<file name="operaciones_fuera_horario_mae.php" server="D:/AppServ/www/comex/" local="130583681644037171" remote="130583681640000000" Dst="-1" />
+<file name="operaciones_fuera_horario_det.php" server="D:/AppServ/www/comex/" local="130583833119578576" remote="130583833110000000" Dst="-1" />
+<file name="operaciones_postventa_det.php" server="D:/AppServ/www/comex/" local="130770357899953523" remote="130770357890000000" Dst="-1" />
+<file name="operaciones_postventa_mae.php" server="D:/AppServ/www/comex/" local="130606450426434306" remote="130606450420000000" Dst="-1" />
+<file name="operaciones_ingresadas_det.php" server="D:/AppServ/www/comex/" local="130682204595182729" remote="130682204590000000" Dst="-1" />
+<file name="cuadratura.php" server="D:/AppServ/www/comex/" local="130765165645771377" remote="130765165640000000" Dst="-1" />
+<file name="cumplimiento_curse_operaciones_mes_det.php" server="D:/AppServ/www/comex/" local="130683226158112378" remote="130683226150000000" Dst="-1" />
+<file name="cumplimiento_curse_operaciones_mes_mae.php" server="D:/AppServ/www/comex/" local="130683202928920673" remote="130683202920000000" Dst="-1" />
+<file name="sacpendientes.php" server="D:/AppServ/www/comex/" local="130698608668672448" remote="130698608660000000" Dst="-1" />
+<file name="caratulagoc_pend_acurec.php" server="D:/AppServ/www/comex/" local="130754916551532710" remote="130754916550000000" Dst="-1" />
+<file name="operaciones_postventa_bmg_det.php" server="D:/AppServ/www/comex/" local="130770363747631774" remote="130770363740000000" Dst="-1" />
+<file name="operaciones_postventa_bmg_mae.php" server="D:/AppServ/www/comex/" local="130770361884068411" remote="130770361880000000" Dst="-1" />
+<file name="trazabilidad_resumen_det.php" server="D:/AppServ/www/comex/" local="130773045457997559" remote="130773045450000000" Dst="-1" />
+<file name="caratulagoc_pend_acurec.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226648485950633" remote="131226648480000000" Dst="2" />
+<file name="cuadratura.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226648486680633" remote="131226648480000000" Dst="2" />
+<file name="cumplimiento_curse_operaciones_det.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226648490880633" remote="131226648490000000" Dst="2" />
+<file name="cumplimiento_curse_operaciones_mae.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226648493100633" remote="131226648490000000" Dst="2" />
+<file name="cumplimiento_curse_operaciones_mes_det.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226648493970633" remote="131226648490000000" Dst="2" />
+<file name="cumplimiento_curse_operaciones_mes_mae.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226648495320633" remote="131226648490000000" Dst="2" />
+<file name="curse_operaciones.php" server="C:/AppServ/www/santander/ComercioExterior/" local="130681573140000000" remote="130681573140000000" Dst="2" />
+<file name="operaciones_fuera_horario_det.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226646543350633" remote="131226646540000000" Dst="2" />
+<file name="operaciones_fuera_horario_mae.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226646540470633" remote="131226646540000000" Dst="2" />
+<file name="operaciones_ingresadas_det.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226646531790633" remote="131226646530000000" Dst="2" />
+<file name="operaciones_ingresadas_mae.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226646530420633" remote="131226646530000000" Dst="2" />
+<file name="operaciones_pendientes.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226646528370633" remote="131226646520000000" Dst="2" />
+<file name="operaciones_postventa_bmg_det.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226646525860633" remote="131226646520000000" Dst="2" />
+<file name="operaciones_postventa_bmg_mae.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226646524930633" remote="131226646520000000" Dst="2" />
+<file name="operaciones_postventa_det.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226646523990633" remote="131226646520000000" Dst="2" />
+<file name="operaciones_postventa_mae.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226646523010633" remote="131226646520000000" Dst="2" />
+<file name="operaciones_reparadas_det.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226646521950633" remote="131226646520000000" Dst="2" />
+<file name="operaciones_reparadas_mae.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226646520920633" remote="131226646520000000" Dst="2" />
+<file name="resumen_curse_operaciones_det.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226640810000000" remote="131226640810000000" Dst="2" />
+<file name="resumen_curse_operaciones_mae.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226640810000000" remote="131226640810000000" Dst="2" />
+<file name="sacpendientes.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226640810000000" remote="131226640810000000" Dst="2" />
+<file name="trazabilidad_operaciones_det.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226639864448813" remote="131226639860000000" Dst="2" />
+<file name="trazabilidad_operaciones_mae.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226639861258494" remote="131226639860000000" Dst="2" />
+<file name="trazabilidad_resumen_det.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226639860318400" remote="131226639860000000" Dst="2" />
+<file name="trazabilidad_resumen_mae.php" server="C:/AppServ/www/santander/ComercioExterior/" local="131226639859278296" remote="131226639850000000" Dst="2" />
+</dwsync>

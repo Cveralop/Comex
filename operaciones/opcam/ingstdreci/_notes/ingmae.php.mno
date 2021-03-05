@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_stbr" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:especialista;datatype:string,name:ejecutivo;datatype:string,name:oficina;datatype:string,name:despacho_doctos;datatype:string,name:segmento;datatype:string,name:sucursal;datatype:string" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_visitas" value="name:valor_visita;datatype:int,name:visitas;datatype:int" />
+	<infoitem key="UD_libro_visitas" value="name:valor_visita;datatype:int,name:visitas;datatype:int" />
+</info>

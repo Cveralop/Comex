@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_opcci" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:date_espe;datatype:timestamp,name:date_asig;datatype:timestamp,name:producto;datatype:string,name:evento;datatype:string,name:estado;datatype:string,name:moneda_operacion;datatype:string,name:monto_operacion;datatype:real,name:operador;datatype:string,name:especialista_curse;datatype:string,name:territorial;datatype:string,name:urgente;datatype:string,name:fuera_horario;datatype:string,name:perfil;datatype:string,name:cantidad;datatype:int" />
+</info>

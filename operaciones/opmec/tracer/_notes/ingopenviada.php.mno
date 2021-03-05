@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_LiveData_params" value="1" />
+	<infoitem key="UD_LiveData_param0" value="recordID=1" />
+	<infoitem key="UD_DetailRS1" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:date_ingreso;datatype:date,name:evento;datatype:string,name:asignador;datatype:string,name:operador;datatype:string,name:nro_operacion;datatype:string,name:nro_operacion_exterior;datatype:string,name:obs_swift;datatype:blob,name:date_actualizacion;datatype:timestamp,name:estado;datatype:string,name:date_seg_tracer;datatype:date,name:fecha_vcto;datatype:date" />
+</info>

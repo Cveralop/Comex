@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_mandato" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:fecha_ingreso;datatype:string" />
+</info>

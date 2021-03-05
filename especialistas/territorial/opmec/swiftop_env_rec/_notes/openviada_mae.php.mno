@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_swift_openviada" value="name:id;datatype:int,name:date_ingreso;datatype:string,name:moneda_operacion;datatype:string,name:monto_operacion;datatype:real,name:monto_operacion_usd;datatype:real,name:nro_operacion;datatype:string,name:nro_operacion_relacionada;datatype:string,name:rut_ordenante;datatype:string,name:nombre_ordenante;datatype:string,name:nombre_beneficiario;datatype:string,name:direccion_beneficiario;datatype:string,name:cuenta_beneficiario;datatype:string,name:cod_pais;datatype:string,name:cod_bco_pagador;datatype:string,name:cod_bco_corresponsal;datatype:string,name:nombre_banco;datatype:string,name:origen_gasto;datatype:string,name:codigo_comercio;datatype:string,name:tipo_swift;datatype:string,name:fecha_valuta;datatype:string" />
+</info>

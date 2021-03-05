@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_usuario" value="name:id;datatype:int,name:rut;datatype:string,name:nombre;datatype:string,name:usuario;datatype:string,name:password;datatype:string,name:perfil;datatype:string,name:segmento;datatype:string,name:grupo;datatype:string,name:opbga;datatype:string,name:opcbe;datatype:string,name:opcbi;datatype:string,name:opcce;datatype:string,name:opcci;datatype:string,name:opcdpa;datatype:string,name:opcex;datatype:string,name:opmec;datatype:string,name:oppre;datatype:string,name:opste;datatype:string,name:opstr;datatype:string,name:optbc;datatype:string,name:celular1;datatype:int,name:celular2;datatype:int,name:red_fija1;datatype:int,name:red_fija2;datatype:int,name:fecha_cumpleano;datatype:date,name:direccion_particular;datatype:string" />
+	<infoitem key="UD_ultimoacceso" value="name:id;datatype:int,name:usuario;datatype:string,name:fecha_acceso;datatype:timestamp" />
+	<infoitem key="UD_oppre" value="name:producto;datatype:string,name:date_ini;datatype:date,name:date_fin;datatype:date" />
+	<infoitem key="UD_opbga" value="name:date_ingreso;datatype:date" />
+	<infoitem key="UD_opcbe" value="name:date_ingreso;datatype:date" />
+	<infoitem key="UD_opcbi" value="name:date_ingreso;datatype:date" />
+	<infoitem key="UD_opcce" value="name:date_ingreso;datatype:date" />
+	<infoitem key="UD_opcci" value="name:date_ingreso;datatype:date" />
+	<infoitem key="UD_opcdpa" value="name:date_ingreso;datatype:date" />
+	<infoitem key="UD_opcex" value="name:date_ingreso;datatype:date" />
+	<infoitem key="UD_opmec" value="name:date_ingreso;datatype:date" />
+	<infoitem key="UD_opste" value="name:date_ingreso;datatype:date" />
+	<infoitem key="UD_opstr" value="name:date_ingreso;datatype:date" />
+	<infoitem key="UD_optbc" value="name:date_ingreso;datatype:date" />
+</info>

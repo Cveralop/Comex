@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:ctemn;datatype:string,name:ctemx;datatype:string,name:nro_operacion;datatype:string,name:operador_ing;datatype:string,name:date_ingreso;datatype:timestamp,name:operador_modifi;datatype:string,name:date_modifi;datatype:timestamp" />
+</info>

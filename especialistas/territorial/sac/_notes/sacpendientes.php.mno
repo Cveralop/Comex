@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_sac" value="name:nro_req;datatype:string,name:fecha_inicio;datatype:string,name:fecha_creacion;datatype:string,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:segmento;datatype:string,name:tipificacion;datatype:string,name:etapa_actual;datatype:string,name:estado_gestion_etapa;datatype:string,name:tiempo_estandar_etapa;datatype:string,name:unidad_actual;datatype:string,name:ingresado_por;datatype:string,name:punto_contacto;datatype:string,name:lugar_contacto;datatype:string,name:fecha_archivo;datatype:timestamp" />
+</info>

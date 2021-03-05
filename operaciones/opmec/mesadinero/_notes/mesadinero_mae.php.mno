@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_mesadinero" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:fecha_ingreso;datatype:timestamp,name:evento;datatype:string,name:moneda;datatype:string,name:monto_mx;datatype:real,name:monto_ml;datatype:real,name:tipo_cambio;datatype:real,name:paridad;datatype:real,name:cta_cte_origen;datatype:string,name:cta_cte_destino;datatype:string,name:otro_destino;datatype:string,name:mandato;datatype:string,name:operador;datatype:string,name:apoderado;datatype:string,name:post_venta;datatype:string,name:folio_npe;datatype:int,name:estado;datatype:string,name:impresion;datatype:string,name:usuario;datatype:string" />
+</info>

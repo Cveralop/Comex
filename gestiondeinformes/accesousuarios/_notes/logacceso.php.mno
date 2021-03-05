@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_logacceso" value="name:id;datatype:int,name:usuario;datatype:string,name:fecha_acceso;datatype:timestamp" />
+	<infoitem key="UD_accesouser" value="name:id;datatype:int,name:usuario;datatype:string,name:fecha_acceso;datatype:timestamp" />
+</info>

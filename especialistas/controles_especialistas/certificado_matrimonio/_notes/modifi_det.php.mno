@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_LiveData_params" value="1" />
+	<infoitem key="UD_LiveData_param0" value="recordID=1" />
+	<infoitem key="UD_DetailRS1" value="name:id;datatype:int,name:nombre_aval;datatype:string,name:rut_aval;datatype:int,name:dv_aval;datatype:string,name:estado_civil;datatype:string,name:date_ingreso;datatype:date,name:date_suscrip;datatype:date,name:date_vcto;datatype:date,name:estado;datatype:string" />
+</info>

@@ -1,0 +1,3 @@
+Table	Op	Msg_type	Msg_text
+comercioexterior.base_operaciones	optimize	status	Table is already up to date
+comercioexterior.estadistica_resumen	optimize	status	OK

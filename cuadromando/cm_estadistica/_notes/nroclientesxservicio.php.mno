@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_nroclientesxservicio" value="name:date_curse;datatype:date,name:rut_cliente;datatype:string,name:producto;datatype:string,name:evento;datatype:string,name:nro_cuotas;datatype:int,name:date_ingreso;datatype:date" />
+	<infoitem key="UD_sumbga" value="name:date_curse;datatype:date,name:rut_cliente;datatype:string,name:producto;datatype:string,name:evento;datatype:string,name:nro_cuotas;datatype:int,name:date_ingreso;datatype:date,name:bga;datatype:int" />
+	<infoitem key="UD_sumcce" value="name:date_curse;datatype:date,name:rut_cliente;datatype:string,name:producto;datatype:string,name:evento;datatype:string,name:nro_cuotas;datatype:int,name:date_ingreso;datatype:date,name:cce;datatype:int" />
+	<infoitem key="UD_sumcci" value="name:date_curse;datatype:date,name:rut_cliente;datatype:string,name:producto;datatype:string,name:evento;datatype:string,name:nro_cuotas;datatype:int,name:date_ingreso;datatype:date,name:cci;datatype:int" />
+	<infoitem key="UD_sumcbe" value="name:date_curse;datatype:date,name:rut_cliente;datatype:string,name:producto;datatype:string,name:evento;datatype:string,name:nro_cuotas;datatype:int,name:date_ingreso;datatype:date,name:cbe;datatype:int" />
+	<infoitem key="UD_sumcbi" value="name:date_curse;datatype:date,name:rut_cliente;datatype:string,name:producto;datatype:string,name:evento;datatype:string,name:nro_cuotas;datatype:int,name:date_ingreso;datatype:date,name:cbi;datatype:int" />
+	<infoitem key="UD_sumtbc" value="name:date_curse;datatype:date,name:rut_cliente;datatype:string,name:producto;datatype:string,name:evento;datatype:string,name:nro_cuotas;datatype:int,name:date_ingreso;datatype:date,name:tbc;datatype:int" />
+	<infoitem key="UD_sumcex" value="name:date_curse;datatype:date,name:rut_cliente;datatype:string,name:producto;datatype:string,name:evento;datatype:string,name:nro_cuotas;datatype:int,name:date_ingreso;datatype:date,name:cex;datatype:int" />
+	<infoitem key="UD_sumste" value="name:date_curse;datatype:date,name:rut_cliente;datatype:string,name:producto;datatype:string,name:evento;datatype:string,name:nro_cuotas;datatype:int,name:date_ingreso;datatype:date,name:ste;datatype:int" />
+	<infoitem key="UD_sumstr" value="name:date_curse;datatype:date,name:rut_cliente;datatype:string,name:producto;datatype:string,name:evento;datatype:string,name:nro_cuotas;datatype:int,name:date_ingreso;datatype:date,name:str;datatype:int" />
+	<infoitem key="UD_summec" value="name:date_curse;datatype:date,name:rut_cliente;datatype:string,name:producto;datatype:string,name:evento;datatype:string,name:nro_cuotas;datatype:int,name:date_ingreso;datatype:date,name:mec;datatype:int" />
+	<infoitem key="UD_sumpre" value="name:date_curse;datatype:date,name:rut_cliente;datatype:string,name:producto;datatype:string,name:evento;datatype:string,name:nro_cuotas;datatype:int,name:date_ingreso;datatype:date,name:pre;datatype:int" />
+</info>

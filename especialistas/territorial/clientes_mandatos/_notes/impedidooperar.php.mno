@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_impoperar" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:cod_negative_file;datatype:int,name:descripcion;datatype:string,name:date_vigencia;datatype:date,name:considerar;datatype:string" />
+</info>

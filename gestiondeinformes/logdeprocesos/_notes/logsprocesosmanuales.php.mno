@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_curseapertura" value="name:id;datatype:int,name:tarea;datatype:string,name:descripcion_tarea;datatype:string,name:fecha_hora_inicio;datatype:timestamp,name:fecha_hora_termino;datatype:timestamp,name:tiempo_proceso;datatype:string" />
+	<infoitem key="UD_logstareas" value="name:id;datatype:int,name:tarea;datatype:string,name:descripcion_tarea;datatype:string,name:fecha_hora_inicio;datatype:timestamp,name:fecha_hora_termino;datatype:timestamp,name:tiempo_proceso;datatype:string" />
+</info>

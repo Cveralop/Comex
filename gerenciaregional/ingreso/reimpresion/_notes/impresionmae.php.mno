@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:territorial;datatype:string,name:nombre_ejecutivo;datatype:string,name:especialista;datatype:string,name:ejecutivo;datatype:string,name:sucursal;datatype:string,name:oficina;datatype:string,name:oficina_ingreso;datatype:string,name:date_ingreso;datatype:timestamp,name:tipo;datatype:string,name:evento;datatype:string,name:estado;datatype:string,name:obs;datatype:string,name:date_recibo;datatype:timestamp,name:pagare_original;datatype:string,name:firma_cliente;datatype:string,name:vb_ejecutivo;datatype:string,name:fuera_horario;datatype:string" />
+</info>

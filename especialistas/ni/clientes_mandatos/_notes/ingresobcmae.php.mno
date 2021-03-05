@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ingreso_cliente" value="name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:cod_ctr;datatype:string,name:rut_ejecutivo;datatype:string,name:nombre_ejecutivo;datatype:string,name:id_cargo;datatype:string,name:ultima_linea;datatype:string,name:cod_suc;datatype:string,name:cli_cat_sub;datatype:string,name:banca;datatype:string,name:segmento;datatype:string,name:sub_segmento;datatype:string,name:territorial;datatype:string,name:zonal;datatype:string,name:sucursal;datatype:string,name:operador_flow;datatype:string,name:ejecutivo_ni;datatype:string,name:especialista_ni;datatype:string,name:subgerente;datatype:string,name:distribucion_goc;datatype:string" />
+</info>

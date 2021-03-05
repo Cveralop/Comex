@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_eliminar" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:especialista;datatype:string,name:fecha_ingreso;datatype:string,name:nombre_contacto_1;datatype:string,name:telefono_11;datatype:string,name:telefono_12;datatype:string,name:nombre_contacto_2;datatype:string,name:telefono_21;datatype:string,name:telefono_22;datatype:string,name:nombre_contacto_3;datatype:string,name:telefono_31;datatype:string,name:telefono_32;datatype:string" />
+	<infoitem key="UD_consultamandatos" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:especialista;datatype:string,name:tipo_mandato;datatype:string,name:ing_operador;datatype:string,name:fecha_ingreso;datatype:date,name:date_ingreso;datatype:timestamp,name:visador;datatype:string,name:fecha_visacion;datatype:timestamp,name:estado;datatype:string,name:Contacto1;datatype:string,name:Contacto2;datatype:string" />
+</info>

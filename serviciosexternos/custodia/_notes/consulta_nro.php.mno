@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_LiveData_params" value="1" />
+	<infoitem key="UD_LiveData_param0" value="recordID=1" />
+	<infoitem key="UD_custodia" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nro_operacion;datatype:string,name:nro_operacion_relacionada;datatype:string,name:nombre_producto;datatype:string,name:tpc;datatype:string,name:fecha_otorgamiento;datatype:date,name:fecha_vcto;datatype:date,name:moneda;datatype:string,name:monto;datatype:string,name:tipo_custodia;datatype:string,name:tipo_garantia;datatype:string,name:nombre_cliente;datatype:string,name:cod_suc;datatype:string,name:nombre_oficina;datatype:string,name:ejecutivo_cuenta;datatype:string" />
+	<infoitem key="MMGuideColor" value="#00FF00" />
+	<infoitem key="MMGuideVisible" value="true" />
+	<infoitem key="MMGuideLocked" value="false" />
+	<infoitem key="MMSnapToGuide" value="false" />
+	<infoitem key="MMGuidesSnapToElements" value="true" />
+	<infoitem key="MMDistanceColor" value="#0000FF" />
+	<infoitem key="MMGuideCount" value="0" />
+</info>

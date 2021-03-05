@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_altacajaseca" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:moneda_operacion;datatype:string,name:monto_operacion;datatype:real,name:evento;datatype:string,name:fecha_ingreso;datatype:string,name:date_ingreso;datatype:date,name:operador;datatype:string,name:date_operador;datatype:timestamp,name:operador_caja;datatype:string,name:date_operador_caja;datatype:timestamp,name:supervisor_caja;datatype:string,name:date_supervisor;datatype:timestamp,name:estado;datatype:string" />
+</info>

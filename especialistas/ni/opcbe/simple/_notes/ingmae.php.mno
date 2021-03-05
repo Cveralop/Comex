@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ingape" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:especialista;datatype:string,name:ejecutivo;datatype:string,name:oficina;datatype:string,name:despacho_doctos;datatype:string,name:segmento;datatype:string,name:sucursal;datatype:string,name:ing_por;datatype:string,name:date1;datatype:timestamp,name:mod_por;datatype:string,name:date2;datatype:timestamp" />
+	<infoitem key="UD_ingvarios" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:nro_operacion;datatype:string" />
+</info>

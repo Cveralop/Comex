@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_oprecibidas" value="name:sucursal;datatype:string,name:cuenta;datatype:string,name:rut_cliente;datatype:string,name:nombre;datatype:string,name:moneda;datatype:string,name:monto;datatype:real,name:saldo;datatype:real,name:nro_vigente;datatype:string,name:fecha_vigente;datatype:string,name:dias_pendientes;datatype:int,name:nombre_cliente;datatype:string,name:ejecutivo_cuentas;datatype:string,name:post_venta;datatype:string,name:ejecutivo_ni;datatype:string,name:territorial;datatype:string,name:segmento;datatype:string" />
+</info>

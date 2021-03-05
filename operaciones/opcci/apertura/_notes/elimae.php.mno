@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_eliminar" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:fecha_ingreso;datatype:string,name:evento;datatype:string,name:estado;datatype:string,name:fecha_curse;datatype:string,name:asignador;datatype:string,name:operador;datatype:string,name:nro_operacion;datatype:string,name:obs;datatype:string,name:especialista;datatype:string,name:moneda_operacion;datatype:string,name:monto_operacion;datatype:real,name:pais;datatype:string,name:banco_destino;datatype:string,name:folio;datatype:string,name:moneda_documentos;datatype:string,name:monto_documentos;datatype:real,name:convenio;datatype:string,name:tipo_negociacion;datatype:string,name:reserva;datatype:string" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:date_ingreso;datatype:date,name:producto;datatype:string,name:evento;datatype:string,name:cantidad;datatype:int" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_modificar" value="name:id;datatype:int,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:moneda_operacion;datatype:string,name:monto_operacion;datatype:real,name:fecha_ingreso;datatype:string,name:nro_inscripcion;datatype:int,name:beneficiario;datatype:string,name:tipo_plazo;datatype:string,name:tipo_tasa;datatype:string,name:obs;datatype:blob" />
+</info>

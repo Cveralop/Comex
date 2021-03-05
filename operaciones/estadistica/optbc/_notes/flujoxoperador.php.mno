@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_flujo" value="name:operador;datatype:string,name:nro_operacion;datatype:string,name:evento;datatype:string,name:date_oper;datatype:timestamp,name:minimo;datatype:timestamp,name:maximo;datatype:timestamp,name:cantidad;datatype:int" />
+</info>

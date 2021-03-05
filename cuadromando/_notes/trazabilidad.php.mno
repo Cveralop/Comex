@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_trazabilidad" value="name:id;datatype:int,name:producto;datatype:string,name:evento;datatype:string,name:estado;datatype:string,name:date_ing;datatype:date,name:date_espe;datatype:date,name:minimo;datatype:real,name:maximo;datatype:real,name:promedio;datatype:real" />
+	<infoitem key="UD_acuserecibocaratula" value="name:id;datatype:int,name:producto;datatype:string,name:evento;datatype:string,name:estado;datatype:string,name:date_ing;datatype:date,name:date_espe;datatype:date,name:minimo;datatype:real,name:maximo;datatype:real,name:promedio;datatype:real" />
+	<infoitem key="UD_espe_visacion" value="name:id;datatype:int,name:producto;datatype:string,name:evento;datatype:string,name:estado;datatype:string,name:date_ing;datatype:date,name:date_espe;datatype:date,name:minimo;datatype:real,name:maximo;datatype:real,name:promedio;datatype:real" />
+	<infoitem key="UD_visacion_asignacion" value="name:id;datatype:int,name:producto;datatype:string,name:evento;datatype:string,name:estado;datatype:string,name:date_ing;datatype:date,name:date_espe;datatype:date,name:minimo;datatype:real,name:maximo;datatype:real,name:promedio;datatype:real" />
+	<infoitem key="UD_asignacion_altaoperador" value="name:id;datatype:int,name:producto;datatype:string,name:evento;datatype:string,name:estado;datatype:string,name:date_ing;datatype:date,name:date_espe;datatype:date,name:minimo;datatype:real,name:maximo;datatype:real,name:promedio;datatype:real" />
+	<infoitem key="UD_altaoperador_altasupervisor" value="name:id;datatype:int,name:producto;datatype:string,name:evento;datatype:string,name:estado;datatype:string,name:date_ing;datatype:date,name:date_espe;datatype:date,name:minimo;datatype:real,name:maximo;datatype:real,name:promedio;datatype:real" />
+</info>

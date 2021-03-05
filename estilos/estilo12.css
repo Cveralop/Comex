@@ -1,0 +1,222 @@
+.etiqueta12 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0000FF;
+}
+.boton {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0000FF;
+	cursor: hand;
+}
+.vinculos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF0000;
+	cursor: hand;
+	font-weight: bold;
+}
+.campo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: none #FFFFFF;
+	list-style-type: none;
+}
+.rojopequeno {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.mayuscula {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0000FF;
+}
+.destadado {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FF0000;
+	background-color: #FFFF99;
+	font-weight: bolder;
+	text-transform: none;
+	border: dotted #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+}
+.Rojo2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #FF0000;
+	border: solid #FF0000;
+	display: table-cell;
+	background-position: center center;
+	height: 2%;
+	width: 10%;
+}
+.Amarillo2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000000;
+	background-color: #FFFF00;
+	border: solid #FFFF00;
+	display: table-cell;
+	height: 2%;
+	width: 10%;
+}
+.Verde2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #00CC00;
+	display: table-cell;
+	font-weight: bold;
+	border: solid #00CC00;
+	background-position: center center;
+	height: 2%;
+	width: 10%;
+}.tabla {
+	background-color: #999;
+	display: table;
+}
+.titulo {
+	font-size: 12px;
+	color: #FFF;
+	font-weight: bold;
+}
+.tabla {
+	color: #00F;
+}
+.titulo_menu {
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+body table {
+	color: #FFF;
+	text-align: center;
+	font-weight: normal;
+	font-size: 14px;
+}
+#titulo_menu {
+	color: #FFF;
+}
+#titulo_menu td {
+	color: #FFF;
+}
+.nroregistro {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #F00;
+}
+.titulodetalle {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+}
+.titulocolumnas {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #999;
+}
+.respuestacolumna {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #00F;
+}
+.respuestacolumna_rojo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #F00;
+}
+.respuestacolumna_azul {
+	font-size: 10px;
+	font-weight: bold;
+	color: #00F;
+}
+.titulopaguina {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+}
+.subtitulopaguina {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.NegrillaCartaReparo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+.tituloverde {
+	color: #0F0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.Azul2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #00F;
+	display: table-cell;
+	font-weight: bold;
+	background-position: center center;
+	height: 2%;
+	width: 10%;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #00F;
+	border-right-color: #00F;
+	border-bottom-color: #00F;
+	border-left-color: #00F;
+}
+.Naranja2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #F90;
+	display: table-cell;
+	font-weight: bold;
+	background-position: center center;
+	height: 2%;
+	width: 10%;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #F90;
+	border-right-color: #F90;
+	border-bottom-color: #F90;
+	border-left-color: #F90;
+}
+.Gris2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000000;
+	background-color: #CCC;
+	display: table-cell;
+	height: 2%;
+	width: 10%;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}

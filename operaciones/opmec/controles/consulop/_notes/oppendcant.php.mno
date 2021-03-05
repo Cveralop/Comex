@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_cantidad" value="name:operador;datatype:string,name:total;datatype:int,name:pendienteop;datatype:real,name:pendientesup;datatype:real,name:cursado;datatype:real,name:reparadas;datatype:real" />
+</info>

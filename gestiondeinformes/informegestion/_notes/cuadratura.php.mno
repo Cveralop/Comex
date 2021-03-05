@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_cuadratura" value="name:id;datatype:int,name:producto;datatype:string,name:evento;datatype:string,name:rut_cliente;datatype:string,name:nombre_cliente;datatype:string,name:nro_operacion;datatype:string,name:moneda_operacion;datatype:string,name:monto_operacion;datatype:real,name:moneda_documentos;datatype:string,name:monto_documentos;datatype:real,name:estado;datatype:string" />
+</info>
