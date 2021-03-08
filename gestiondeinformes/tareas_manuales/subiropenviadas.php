@@ -44,8 +44,8 @@ if (!((isset($_SESSION['MM_Username'])) && (isAuthorized("",$MM_authorizedUsers,
 <head> 
 <title>Subir Archivo OP Enviadas</title> 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><style type="text/css">
-<!--
-@import url("../../operaciones/gestionmedios/estilos/estilo12.css");
+
+/* @import url("../../operaciones/gestionmedios/estilos/estilo12.css");
 body,td,th {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 10px;
@@ -62,18 +62,20 @@ body {
 .Estilo4 {font-size: 14px;
 	font-weight: bold;
 	color: #FFFFFF;
-}
--->
+} */
+
 </style>
 <script> 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
+var direccion='../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos); 
 </script> 
+
 <link rel="shortcut icon" href="../../comex/imagenes/barraweb/favicon.ico">
 <link rel="icon" type="image/gif" href="../../comex/imagenes/barraweb/animated_favicon1.gif">
 </head> 
+
 <?php 
 if($REQUEST_METHOD = "POST"){  //if($REQUEST_METHOD<>"POST"){ No funciona en php7
 ?>

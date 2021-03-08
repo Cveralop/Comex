@@ -187,12 +187,13 @@ function MM_preloadImages() { //v3.0
     if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
 }
 </script>
+</style>
 <script> 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
+var direccion='../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos); 
-</script> 
+</script>
 <link rel="shortcut icon" href="../../../../imagenes/barraweb/favicon.ico">
 <link rel="icon" type="image/gif" href="../../../../imagenes/barraweb/animated_favicon1.gif">
 </head>

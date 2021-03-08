@@ -180,7 +180,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
     </div></td>
   </tr>
   <tr>
-    <td align="left" valign="middle" bgcolor="#FF0000">OPERADOR: (<?php echo strtoupper($row_usuario['nombre']);?>) �REA: (<?php echo strtoupper($row_usuario['segmento']);?>)</td>
+    <td align="left" valign="middle" bgcolor="#FF0000">OPERADOR: (<?php echo strtoupper($row_usuario['nombre']);?>) &AacuteREA: (<?php echo strtoupper($row_usuario['segmento']);?>)</td>
   </tr>
 </table>
 <br>

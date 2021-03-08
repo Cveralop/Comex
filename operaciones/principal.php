@@ -141,6 +141,17 @@ a:active {
 
 <script language="JavaScript" type="text/JavaScript">
 
+
+
+</script>
+<script>
+
+//Script original de KarlanKas para forosdelweb.com 
+var segundos=10 //1200
+var direccion='../cierre.php' 
+milisegundos=segundos*1000 
+window.setTimeout("window.location.replace(direccion);",milisegundos);
+
 function MM_jumpMenu(targ,selObj,restore){ //v3.0
   eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
   if (restore) selObj.selectedIndex=0;
@@ -164,16 +175,6 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
-
-</script>
-<script>
-
-//Script original de KarlanKas para forosdelweb.com 
-var segundos=10 //1200
-var direccion='http://localhost/comexAzureMySQLDatabase/' 
-milisegundos=segundos*1000 
-window.setTimeout("window.location.replace(direccion);",milisegundos);
-
 </script>
 
 </head>

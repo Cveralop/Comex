@@ -42,7 +42,7 @@ a:active {
 <br>
 <table width="95%"  border="0" align="center">
   <tr>
-    <td><div align="justify" class="Estilo7"><span class="Estilo8">Estimado Se&ntilde;or usuario le informo que usted no tiene acceso a este modulo, favor haga click </span><span class="Estilo9"><a href="../../ingreso.php">aqui</a></span><span class="Estilo8"> para volver a la paguina anterior.</span></div></td>
+    <td><div align="justify" class="Estilo7"><span class="Estilo8">Estimado Se&ntilde;or usuario le informo que usted no tiene acceso a este modulo, favor haga click </span><span class="Estilo9"><a href="../../ingreso.php">aqui</a></span><span class="Estilo8"> para volver a la pagina anterior.</span></div></td>
   </tr>
 </table>
 <br>

@@ -212,12 +212,13 @@ function MM_swapImage() { //v3.0
 }
 //-->
 </script>
+</style>
 <script> 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
+var direccion='../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos); 
-</script> 
+</script>
 </head>
 <body onload="MM_preloadImages('../../../../imagenes/Botones/boton_volver_2.jpg')">
 <table width="95%"  border="1" align="center" bordercolor="#FF0000" bgcolor="#FF0000">

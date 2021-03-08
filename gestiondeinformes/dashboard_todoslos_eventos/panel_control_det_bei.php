@@ -168,12 +168,13 @@ a:active {
 -->
 </style>
 <link href="../../estilos/estilo12.css" rel="stylesheet" type="text/css" />
+</style>
 <script> 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
+var direccion='../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos); 
-</script> 
+</script>
 </head>
 <body onload="MM_preloadImages('../../imagenes/Botones/boton_volver_2.jpg')">
 <table width="95%" border="0" align="center">

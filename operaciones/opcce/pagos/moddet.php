@@ -217,12 +217,13 @@ function MM_validateForm() { //v4.0
   document.MM_returnValue = (errors == '');
 }
 </script>
+</style>
 <script> 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
+var direccion='../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos); 
-</script> 
+</script>
 <link rel="shortcut icon" href="../../../imagenes/barraweb/favicon.ico">
 <link rel="icon" type="image/gif" href="../../../imagenes/barraweb/animated_favicon1.gif">
 <link href="../../../SpryAssets/SpryValidationTextarea.css" rel="stylesheet" type="text/css">

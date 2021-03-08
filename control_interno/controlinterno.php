@@ -94,7 +94,7 @@ $totalRows_usuario = mysqli_num_rows($usuario);
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Control Interno</title>
 <style type="text/css">
-<!--
+
 @import url("../estilos/estilo12.css");
 .Estilo3 {font-size: 24px;
 	color: #FFFFFF;
@@ -141,11 +141,11 @@ a:active {
 	background-color: #F00;
 	font-weight: bold;
 }
--->
+
 </style>
 <script>
-var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
+var segundos=1
+var direccion='../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos);
 function MM_jumpMenu(targ,selObj,restore){ //v3.0
@@ -153,6 +153,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
   if (restore) selObj.selectedIndex=0;
 }
 </script> 
+
 </head>
 <link rel="shortcut icon" href="../imagenes/barraweb/favicon.ico">
 <link rel="icon" type="image/gif" href="../imagenes/barraweb/animated_favicon1.gif">
@@ -169,7 +170,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
     </div></td>
   </tr>
   <tr>
-    <td align="left" valign="middle" bgcolor="#FF0000"><span class="titulo_menu_rojo">OPERADOR: (<?php echo strtoupper($row_usuario['nombre']);?>) �REA: (<?php echo strtoupper($row_usuario['segmento']);?>)</span></td>
+    <td align="left" valign="middle" bgcolor="#FF0000"><span class="titulo_menu_rojo">OPERADOR: (<?php echo strtoupper($row_usuario['nombre']);?>) &AacuteREA: (<?php echo strtoupper($row_usuario['segmento']);?>)</span></td>
   </tr>
 </table>
 <br>

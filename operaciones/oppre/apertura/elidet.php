@@ -158,12 +158,13 @@ a:active {
 -->
 </style>
 <script src="../../../SpryAssets/SpryValidationTextarea.js" type="text/javascript"></script>
+</style>
 <script> 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
+var direccion='../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos); 
-</script> 
+</script>
 <link href="../../../SpryAssets/SpryValidationTextarea.css" rel="stylesheet" type="text/css">
 </head>
 <link rel="shortcut icon" href="../../../imagenes/barraweb/favicon.ico">

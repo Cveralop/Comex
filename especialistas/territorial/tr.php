@@ -188,7 +188,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
     </div></td>
   </tr>
   <tr>
-    <td align="left" valign="middle" bgcolor="#FF0000"><span class="titulo_menu_rojo">OPERADOR: (<?php echo strtoupper($row_usuario['nombre']);?>) �REA: (<?php echo strtoupper($row_usuario['segmento']);?>)</span></td>
+    <td align="left" valign="middle" bgcolor="#FF0000"><span class="titulo_menu_rojo">OPERADOR: (<?php echo strtoupper($row_usuario['nombre']);?>) &AacuteREA: (<?php echo strtoupper($row_usuario['segmento']);?>)</span></td>
   </tr>
 </table>
 <br>
