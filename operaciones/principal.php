@@ -147,7 +147,7 @@ a:active {
 <script>
 
 //Script original de KarlanKas para forosdelweb.com 
-var segundos=10 //1200
+var segundos=1200
 var direccion='../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos);

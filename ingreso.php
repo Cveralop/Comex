@@ -152,7 +152,7 @@ a:active {
 
 /*Script original de KarlanKas para forosdelweb.com  */
 //'http://pdpto38:8303/comex/index.php' 
-var segundos=10
+var segundos=1200
 var direccion='cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos);
