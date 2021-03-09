@@ -3,6 +3,36 @@
 if (!isset($_SESSION)) {
   session_start();
 }
+if (!function_exists("GetSQLValueString")) {
+  function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
+  {
+    global $comercioexterior;
+  
+    if (PHP_VERSION < 6) {
+      $theValue = get_magic_quotes_gpc() ? stripslashes($theValue) : $theValue;
+    }
+    $theValue = function_exists("mysqli_real_escape_string") ? mysqli_real_escape_string($comercioexterior, $theValue) : mysqli_escape_string($comercioexterior, $theValue);
+     switch ($theType) {
+      case "text":
+        $theValue = ($theValue != "") ? "'" . $theValue . "'" : "NULL";
+        break;    
+      case "long":
+      case "int":
+        $theValue = ($theValue != "") ? intval($theValue) : "NULL";
+        break;
+      case "double":
+        $theValue = ($theValue != "") ? doubleval($theValue) : "NULL";
+        break;
+      case "date":
+        $theValue = ($theValue != "") ? "'" . $theValue . "'" : "NULL";
+        break;
+      case "defined":
+        $theValue = ($theValue != "") ? $theDefinedValue : $theNotDefinedValue;
+        break;
+    }
+    return $theValue;
+  }
+  }
 $MM_authorizedUsers = "ADM,SUP,OPE,ESP";
 $MM_donotCheckaccess = "false";
 // *** Restrict Access To Page: Grant or deny access to this page
@@ -44,19 +74,26 @@ $editFormAction = $_SERVER['PHP_SELF'];
 if (isset($_SERVER['QUERY_STRING'])) {
   $editFormAction .= "?" . htmlentities($_SERVER['QUERY_STRING']);
 }
-if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form1")) {
-  $updateSQL = sprintf("UPDATE usuarios SET password=%s WHERE usuario=%s",
-                       GetSQLValueString($_POST['password'], "text"),
-                       GetSQLValueString($_POST['usuario'], "text"));
-  mysqli_select_db($comercioexterior, $database_comercioexterior);
-  $Result1 = mysqli_query($comercioexterior, $updateSQL) or die(mysqli_error($comercioexterior));
-  $updateGoTo = "../../index.php";
-  if (isset($_SERVER['QUERY_STRING'])) {
+try {
+  if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form1")) {
+    $updateSQL = sprintf("UPDATE usuarios SET password=%s WHERE usuario=%s",
+                           GetSQLValueString($_POST['password'], "text"),
+                           GetSQLValueString($_POST['usuario'], "text"));
+    mysqli_select_db($comercioexterior, $database_comercioexterior);
+    $Result1 = mysqli_query($comercioexterior, $updateSQL) or die(mysqli_error($comercioexterior));
+    
+    $updateGoTo = "../../index.php";
+    if (isset($_SERVER['QUERY_STRING'])) {
     $updateGoTo .= (strpos($updateGoTo, '?')) ? "&" : "?";
     $updateGoTo .= $_SERVER['QUERY_STRING'];
-  }
-  header(sprintf("Location: %s", $updateGoTo));
+     }
+    header(sprintf("Location: %s", $updateGoTo));
+    }
+} catch (\Throwable $th) {
+  echo($th);
 }
+  
+
 ?>
 <?php
 $colname_campass = "1";
@@ -65,17 +102,18 @@ if (isset($_GET['usuario'])) {
 }
 mysqli_select_db($comercioexterior, $database_comercioexterior);
 $query_campass = sprintf("SELECT * FROM usuarios WHERE usuario = '%s'", $colname_campass);
-$campass = mysql_query($query_campass, $comercioexterior) or die(mysqli_error());
+$campass = mysqli_query($comercioexterior, $query_campass) or die(mysqli_error($comercioexterior));
 $row_campass = mysqli_fetch_assoc($campass);
 $totalRows_campass = mysqli_num_rows($campass);
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Cambio Password</title>
 <style type="text/css">
-<!--
+
 @import url(../../estilos/estilo12.css);
 body,td,th {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -113,10 +151,10 @@ a:active {
 	font-size: 16px;
 	font-weight: bold;
 }
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
-<!--
+
 function MM_preloadImages() { //v3.0
   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
@@ -136,15 +174,17 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
-//-->
+
 </script>
-<script> 
-//Script original de KarlanKas para forosdelweb.com 
+
+<!-- Script original de KarlanKas para forosdelweb.com  -->
+<!-- <script>
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/' 
+var direccion='../index.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos); 
-</script> 
+</script>  -->
+
 </head>
 <link rel="shortcut icon" href="../../../comex/imagenes/barraweb/favicon.ico">
 <link rel="icon" type="image/gif" href="../../../comex/imagenes/barraweb/animated_favicon1.gif">
@@ -189,6 +229,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 </table>
 </body>
 </html>
+
 <?php
 mysqli_free_result($campass);
 ?>

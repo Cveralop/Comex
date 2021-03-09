@@ -193,13 +193,13 @@ function MM_swapImage() { //v3.0
   <tr>
     <td width="43" align="left" valign="middle"><img src="imagenes/GIF/erde016.gif" width="43" height="43" align="left"></td>
     <td width="717" align="left" valign="middle"><span class="Estilo5">COMERCIO EXTERIOR</span></td>
-    <td width="250" rowspan="2" valign="middle"><div align="right">
+    <!-- <td width="250" rowspan="2" valign="middle"><div align="right">
       <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60" align="right">
           <param name="movie" value="imagenes/SWF/reloj_3.swf">
           <param name="quality" value="high">
           <embed src="imagenes/SWF/reloj_3.swf" width="250" height="60" align="right" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
       </object>
-    </div></td>
+    </div></td> -->
   </tr>
   <tr>
     <td colspan="2" align="left" valign="middle"><span class="Estilo16">OPERADOR: (<?php echo strtoupper($row_usuario['nombre']);?>) ÁREA: (<?php echo strtoupper($row_usuario['segmento']);?>)</span></td>
@@ -226,7 +226,9 @@ function MM_swapImage() { //v3.0
         <tr>
           <td width="32%" valign="middle"></div>
           <a href="operaciones/principal.php"><img src="imagenes/Botones/operaciones_comex.jpg" width="200" height="70" border="0" align="middle"></a></td>
-          <td width="1%" valign="middle"></div>            <div align="center"></div>            <div align="center"></div>            <div align="center"></div>            <div align="center"></div>            <div align="center"></div>            <div align="center"></div>            <div align="center"></div>            <div align="center"></div>            <div align="center"></div>            <div align="center"></div></td>
+          <td width="1%" valign="middle">
+          </div>            
+          </td>
           <td width="33%" align="center" valign="middle"></div>
             <a href="control_interno/controlinterno.php"><img src="imagenes/Botones/control_interno.jpg" width="200" height="70" border="0" align="middle"></a>
           <div align="center"></div>            <div align="center"></div>            <div align="center"></div>            <div align="center"></div>            <div align="center"></div></td>
