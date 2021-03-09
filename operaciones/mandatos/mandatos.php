@@ -81,15 +81,17 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <link href="../../estilos/estilo12.css" rel="stylesheet" type="text/css" />
+
 <script> 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
+var direccion='../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos); 
 </script>
+
 </head>
 <body onload="MM_preloadImages('../../imagenes/Botones/boton_volver_2.jpg')">
 <table width="95%"  border="1" align="center" bordercolor="#FF0000" bgcolor="#FF0000">

@@ -131,7 +131,7 @@ window.print();
 	font-size: 18px;
 	font-weight: bold;
 }
--->
+
 </style>
 <link href="../../../../estilos/estilo12.css" rel="stylesheet" type="text/css">
 <head>
@@ -150,7 +150,7 @@ body,td,th {
 	font-weight: bold;
 }
 .Estilo12 {font-size: 14px; font-weight: bold; }
--->
+
 </style></head>
 <body>
 <table width="95%"  border="0" align="center">

@@ -149,7 +149,7 @@ a:active {
 	font-weight: bold;
 }
 .Estilo12 {color: #00FF00}
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
 function MM_swapImgRestore() { //v3.0

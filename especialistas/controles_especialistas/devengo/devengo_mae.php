@@ -111,7 +111,7 @@ body,td,th {
 body {
 	background-image: url(../../../imagenes/JPEG/edificio_corporativo.jpg);
 }
--->
+
 </style>
 <link href="../../../estilos/estilo12.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
@@ -143,7 +143,7 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
--->
+
 </style></head>
 
 <body>

@@ -86,35 +86,31 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
--->
+
 </style>
 <link href="../../estilos/estilo12.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
-<!--
+
 .Estilo4 {	font-size: 12px;
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <script> 
 //Script original de KarlanKas para forosdelweb.com 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
+var direccion='../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos); 
 </script>
+
 </head>
 <body onload="MM_preloadImages('../../imagenes/Botones/boton_volver_2.jpg')">
 <table width="95%"  border="1" align="center" bordercolor="#FF0000" bgcolor="#FF0000">
   <tr>
     <td width="79%" align="left" valign="middle"><span class="Estilo3">CAJA SECA INGRESO Y CONTROL</span></td>
-    <td width="21%" align="left" valign="middle"><div align="right">
-      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60" align="right">
-        <param name="movie" value="../../imagenes/SWF/reloj_3.swf" />
-        <param name="quality" value="high" />
-        <embed src="../../imagenes/SWF/reloj_3.swf" width="250" height="60" align="right" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
-      </object>
+    <td width="80%" align="left" valign="middle"><div align="right">
     </div></td>
   </tr>
 </table>

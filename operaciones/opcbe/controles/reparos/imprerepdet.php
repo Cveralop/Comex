@@ -77,7 +77,7 @@ body,td,th {
 	font-size: 14px;
 	color: #000000;
 }
--->
+
 </style>
 <script> 
 //Script original de KarlanKas para forosdelweb.com 

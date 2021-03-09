@@ -126,7 +126,7 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
--->
+
 </style>
 <script> 
 var segundos=1200

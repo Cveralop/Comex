@@ -188,7 +188,7 @@ a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style><title>Ingreso Modificaci&oacute;n Prestamos Varios - Detalle</title>
 <script src="../../../SpryAssets/SpryValidationTextarea.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/JavaScript">

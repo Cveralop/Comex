@@ -139,7 +139,7 @@ body,td,th {
 	font-weight: bold;
 }
 .Estilo12 {font-size: 14px; font-weight: bold; }
--->
+
 </style>
 <script>
 var segundos=1200

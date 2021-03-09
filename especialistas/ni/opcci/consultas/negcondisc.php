@@ -60,7 +60,7 @@ body,td,th {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 9px;
 }
--->
+
 </style></head>
 <body>
 <table width="95%" border="1" align="center">

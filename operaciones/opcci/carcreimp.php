@@ -48,8 +48,9 @@ if (!((isset($_SESSION['MM_Username'])) && (isAuthorized("",$MM_authorizedUsers,
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Cartas de Cr&eacute;dito Importaci&oacute;n</title>
+
 <style type="text/css">
-<!--
+
 @import url("../../estilos/estilo12.css");
 .Estilo3 {	font-size: 24px;
 	color: #FFFFFF;
@@ -96,9 +97,10 @@ a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style>
-<script language="JavaScript" type="text/JavaScript">
+
+<!-- <script language="JavaScript" type="text/JavaScript">
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 }
@@ -122,11 +124,12 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
   eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
   if (restore) selObj.selectedIndex=0;
 }
-</script>
+</script> -->
+
 </style>
 <script> 
 var segundos=1200
-var direccion='../cierre.php' 
+var direccion='../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos); 
 </script>
@@ -137,13 +140,10 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 <table width="95%"  border="1" align="center" bordercolor="#FF0000" bgcolor="#FF0000">
   <tr valign="middle">
     <td width="73%" align="left" valign="middle"><span class="Estilo3">CARTAS DE CR&Eacute;DITO IMPORTACIONES</span></td>
-    <td width="27%" rowspan="2" align="left" valign="middle"><div align="right">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60" align="right">
-          <param name="movie" value="../../imagenes/SWF/reloj_3.swf">
-          <param name="quality" value="high">
-          <embed src="../../imagenes/SWF/reloj_3.swf" width="250" height="60" align="right" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
-        </object>
-    </div></td>
+    <td width="27%" rowspan="2" align="left" valign="middle">
+    <div align="right">
+    <!-- <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&size=small&timezone=America%2FSantiago" width="100%" height="90" frameborder="0" seamless></iframe> -->
+    </td>
   </tr>
   <tr valign="middle">
     <td align="left" valign="middle"><span class="Estilo6">CAMBIAR A:</span>

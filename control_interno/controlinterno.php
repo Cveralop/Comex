@@ -161,13 +161,13 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 <table width="95%"  border="1" align="center" bordercolor="#FF0000" bgcolor="#FF0000">
   <tr>
     <td align="left" valign="middle"><span class="Estilo3"> </span><span class="Estilo3">CONTROL INTERNO</span></td>
-    <td rowspan="2" align="right" valign="middle">
+    <!-- <td rowspan="2" align="right" valign="middle">
         <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60">
           <param name="movie" value="../imagenes/SWF/reloj_3.swf">
           <param name="quality" value="high">
           <embed src="../imagenes/SWF/reloj_3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="250" height="60"></embed>
         </object>
-    </div></td>
+    </div></td> -->
   </tr>
   <tr>
     <td align="left" valign="middle" bgcolor="#FF0000"><span class="titulo_menu_rojo">OPERADOR: (<?php echo strtoupper($row_usuario['nombre']);?>) &AacuteREA: (<?php echo strtoupper($row_usuario['segmento']);?>)</span></td>

@@ -129,7 +129,7 @@ window.print();
 	font-size: 18px;
 	font-weight: bold;
 }
--->
+
 </style>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
@@ -147,7 +147,7 @@ body,td,th {
 	font-weight: bold;
 }
 .Estilo12 {font-size: 14px; font-weight: bold; }
--->
+
 </style>
 </head>
 <body>

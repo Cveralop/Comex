@@ -181,7 +181,7 @@ a:active {
 .centro {
 	text-align: center;
 }
--->
+
 </style><title>Eliminar Aceptaci&oacute;n Protesto - Detalle</title>
 <script src="../../../SpryAssets/SpryValidationTextarea.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/JavaScript">

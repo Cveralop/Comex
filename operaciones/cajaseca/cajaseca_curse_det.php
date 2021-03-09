@@ -156,7 +156,7 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <link href="../../estilos/estilo12.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
@@ -165,7 +165,7 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <script>
 var segundos=1200

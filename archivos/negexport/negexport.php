@@ -64,10 +64,10 @@ body {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
-<!--
+
 
 
 
@@ -76,17 +76,13 @@ function MM_preloadImages() { //v3.0
     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
     if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
 }
-//-->
+
 </script>
 <script>
-<!--
+
 //Script original de KarlanKas para forosdelweb.com 
-
-
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
-
-
+var direccion='../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos);
 
@@ -106,24 +102,14 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
-//-->
 </script> 
-<script> 
-//Script original de KarlanKas para forosdelweb.com 
 
-
-var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
-
-
-milisegundos=segundos*1000 
-window.setTimeout("window.location.replace(direccion);",milisegundos); 
-</script> 
 <link rel="shortcut icon" href="../../../comex/imagenes/barraweb/favicon.ico">
 <link rel="icon" type="image/gif" href="../../../comex/imagenes/barraweb/animated_favicon1.gif">
 </head> 
 <?php 
-if($REQUEST_METHOD<>"POST"){ 
+
+if($REQUEST_METHOD = "POST"){ 
 ?><body onLoad="MM_preloadImages('../../imagenes/Botones/boton_volver_2.jpg')"> 
 <table width="95%"  border="1" align="center" bordercolor="#FF0000" bgcolor="#FF0000">
   <tr>
@@ -143,10 +129,12 @@ if($REQUEST_METHOD<>"POST"){
 <br>
 <table width="95%"  border="1" align="center" bordercolor="#000000">
   <tr>
-    <td><form name="archivos" method="post" action="negexport.php" enctype="multipart/form-data" target="_blank">
+    <td>
+    <form name="archivos" method="post" action="negexport.php" enctype="multipart/form-data" target="_blank">
       <input name="archivo1" type="file" size="60" maxlength="60">
       <input name="Submit" type="submit" value="Subir">
-</form></td>
+    </form>
+  </td>
   </tr>
 </table>
 <?php
@@ -160,7 +148,8 @@ if($REQUEST_METHOD<>"POST"){
 <br>
 <table width="95%"  border="1" align="center" bordercolor="#666666" bgcolor="#CCCCCC">
   <tr>
-    <td><?
+    <td>
+<?php
 $sizekb = 0.0 ;
 $sizemb = 0.0 ;
 $dir=opendir('.');
@@ -178,8 +167,9 @@ if($file != "negexport.php" AND $file != "erroracceso.php" AND $file != "." AND 
 }
 }
 closedir($dir) ;
-?></td>
-  </tr>
+?>
+</td>
+</tr>
 </table>
 <br>
 <tr>

@@ -170,7 +170,7 @@ a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style>
 <script src="../../../SpryAssets/SpryCollapsiblePanel.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/JavaScript">
@@ -207,7 +207,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 <style type="text/css">
 <!--
 .Estilo121 {color: #FFFFFF; font-weight: bold; }
--->
+
 </style>
 </head>
 <body onLoad="MM_preloadImages('../../../imagenes/Botones/boton_volver_2.jpg')">

@@ -72,7 +72,7 @@ a {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <script type="text/javascript">
 <!--

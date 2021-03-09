@@ -88,7 +88,7 @@ a:active {
 	font-size: 12px;
 	font-weight: bold;
 }
--->
+
 </style>
 <script> 
 var segundos=1200

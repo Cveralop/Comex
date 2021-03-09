@@ -77,7 +77,7 @@ body,td,th {
 	font-size: 14px;
 	color: #000000;
 }
--->
+
 </style>
 <link href="../../../../estilos/estilo12.css" rel="stylesheet" type="text/css">
 </head>

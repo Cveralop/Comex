@@ -98,7 +98,7 @@ body,td,th {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style>
 <!-- Copyright 2000, 2001, 2002, 2003 Macromedia, Inc. All rights reserved. -->
 <!-- Copyright 2000, 2001, 2002, 2003 Macromedia, Inc. All rights reserved. -->
@@ -159,7 +159,7 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 </head>
 <body onload="MM_preloadImages('../../../imagenes/Botones/boton_volver_2.jpg')">

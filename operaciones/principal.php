@@ -186,13 +186,13 @@ function MM_swapImage() { //v3.0
   <tr align="left" valign="middle">
     <td width="43"><img src="../imagenes/GIF/erde016.gif" width="43" height="43" align="left"></td>
     <td width="700" align="left" class="Estilo5">OPERACIONES COMEX</td>
-    <td width="251" rowspan="2">
+    <!-- <td width="251" rowspan="2">
     <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60" align="right">
           <param name="movie" value="../imagenes/SWF/reloj_3.swf">
           <param name="quality" value="high">
           <embed src="../imagenes/SWF/reloj_3.swf" width="250" height="60" align="right" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
       </object>
-    </div></td>
+    </div></td> -->
   </tr>
   <tr align="left" valign="middle">
     <td colspan="2"><span class="Estilo16">OPERADOR:(<?php echo strtoupper($row_usuario['nombre']);?>) &Aacute;REA:(<?php echo strtoupper($row_usuario['segmento']);?>)</span></td>

@@ -235,7 +235,7 @@ a:active {
 }
 .Estilo8 {color: #FFFFFF; font-weight: bold; }
 .Estilo9 {color: #00FF00}
--->
+
 </style>
 <script src="../../../../SpryAssets/SpryCollapsiblePanel.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/JavaScript">
@@ -271,7 +271,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 <style type="text/css">
 <!--
 .Estilo121 {color: #FFFFFF; font-weight: bold; }
--->
+
 </style>
 </head>
 <link rel="shortcut icon" href="../../../../imagenes/barraweb/favicon.ico">

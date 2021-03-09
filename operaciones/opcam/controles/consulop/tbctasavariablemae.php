@@ -128,7 +128,7 @@ a:active {
 	font-weight: bold;
 }
 .Estilo7 {color: #FFFFFF; font-weight: bold; }
--->
+
 </style><title>Operaciones con Tasa Variable</title>
 <script language="JavaScript" type="text/JavaScript">
 function MM_swapImgRestore() { //v3.0

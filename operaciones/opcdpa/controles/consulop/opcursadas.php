@@ -146,7 +146,7 @@ a:active {
 	color: #0000FF;
 	font-weight: bold;
 }
--->
+
 </style><title>Operaciones Cursadas Cobranzas de Exportaci&oacute;n</title>
 </style>
 <script> 

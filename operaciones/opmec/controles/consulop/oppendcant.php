@@ -98,7 +98,7 @@ a:active {
 	font-weight: bold;
 }
 .Estilo7 {color: #FFFFFF; font-weight: bold; }
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
 <!--
@@ -138,7 +138,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 	color: #FF0000;
 	font-weight: bold;
 }
--->
+
 </style>
 <body onLoad="MM_preloadImages('../../../../imagenes/Botones/boton_volver_2.jpg')">
 <table width="95%"  border="1" align="center" bordercolor="#FF0000" bgcolor="#FF0000">

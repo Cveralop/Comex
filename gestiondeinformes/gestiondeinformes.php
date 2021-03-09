@@ -137,11 +137,11 @@ if (!((isset($_SESSION['MM_Username'])) && (isAuthorized("", $MM_authorizedUsers
       <td width="5%" valign="middle"><img src="../imagenes/GIF/erde016.gif" width="43" height="43" align="left"></td>
       <td width="70%" align="left" valign="middle"><span class="Estilo3">DESARROLLO DE PRODUCTOS NI</span></td>
       <td width="25%" valign="middle">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60" align="right">
+        <!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60" align="right">
           <param name="movie" value="../imagenes/SWF/reloj_3.swf">
           <param name="quality" value="high">
           <embed src="../imagenes/SWF/reloj_3.swf" width="250" height="60" align="right" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
-        </object>
+        </object> -->
         </div>
       </td>
     </tr>

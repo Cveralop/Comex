@@ -89,7 +89,7 @@ body,td,th {
 	font-size: 14px
 }
 .Estilo13 {font-size: 12px; font-weight: bold; }
--->
+
 </style>
 </head>
 <link rel="shortcut icon" href="../../../../imagenes/barraweb/favicon.ico">

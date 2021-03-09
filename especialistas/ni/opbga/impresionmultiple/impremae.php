@@ -188,7 +188,7 @@ a:active {
 	font-weight: bold;
 }
 .Estilo10 {font-size: 16px; font-weight: bold; color: #FFFFFF; }
--->
+
 </style>
 <script>
 var segundos=1200

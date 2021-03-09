@@ -121,7 +121,7 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <title>Consulta Mandatos - Maestro</title>
 <link href="../../estilos/estilo12.css" rel="stylesheet" type="text/css" />

@@ -166,7 +166,7 @@ a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style>
 <title>Aceptaci&oacute;n CBI - Maestro</title>
 <script language="JavaScript" type="text/JavaScript">

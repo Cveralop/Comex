@@ -179,7 +179,7 @@ a:active {
 	font-size: 12px;
 	font-weight: bold;
 }
--->
+
 </style><title>Aceptaci&oacute;n CBI - Detalle</title>
 <script src="../../../SpryAssets/SpryValidationTextarea.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/JavaScript">

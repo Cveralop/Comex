@@ -154,7 +154,7 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
--->
+
 </style>
 <link href="../../../estilos/estilo12.css" rel="stylesheet" type="text/css">
 <script language="JavaScript" type="text/JavaScript">
@@ -199,7 +199,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 }
 .Estilo12 {font-size: 9px}
 .Estilo13 {font-size: 12px}
--->
+
 </style>
 </head>
 <link rel="shortcut icon" href="../../../imagenes/barraweb/favicon.ico">

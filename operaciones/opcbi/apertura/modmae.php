@@ -165,7 +165,7 @@ a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style>
 <link href="../../../estilos/estilo12.css" rel="stylesheet" type="text/css">
 <script language="JavaScript" type="text/JavaScript">
@@ -204,7 +204,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 	font-weight: bold;
 }
 .Estilo14 {color: #FFFFFF; font-weight: bold; }
--->
+
 </style>
 </head>
 <link rel="shortcut icon" href="../../../imagenes/barraweb/favicon.ico">

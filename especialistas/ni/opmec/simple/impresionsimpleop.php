@@ -144,7 +144,7 @@ body,td,th {
 .Estilo12 {
 	font-size: 14px;
 }
--->
+
 </style></head>
 <body>
 <table width="95%"  border="0" align="center">

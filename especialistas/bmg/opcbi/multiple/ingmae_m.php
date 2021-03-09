@@ -211,7 +211,7 @@ a:active {
 	color: #FFFFFF;
 }
 .Estilo11 {color: #FFFFFF; font-weight: bold; }
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
 <!--
@@ -257,7 +257,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 	color: #FF0000;
 	font-weight: bold;
 }
--->
+
 </style>
 </head>
 <body onLoad="MM_preloadImages('../../../../bmg/imagenes/Botones/boton_volver_2.jpg','../../../../imagenes/Botones/boton_volver_2.jpg')">

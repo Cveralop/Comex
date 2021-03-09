@@ -156,7 +156,7 @@ a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style>
 <script> 
 //Script original de KarlanKas para forosdelweb.com 

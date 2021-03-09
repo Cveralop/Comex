@@ -114,7 +114,7 @@ body,td,th {
 	font-size: 10px;
 	color: #000;
 }
--->
+
 </style>
 <link href="../../../estilos/estilo12.css" rel="stylesheet" type="text/css" />
 <script> 

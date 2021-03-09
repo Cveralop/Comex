@@ -111,7 +111,7 @@ body,td,th {
 .Estilo12 {font-size: 12}
 .Estilo13 {font-size: 12px; font-weight: bold; }
 .Estilo14 {font-family: Verdana, Arial, Helvetica, sans-serif}
--->
+
 </style>
 <link href="../../../estilos/estilo12.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -134,7 +134,7 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
--->
+
 </style>
 </head>
 <script> 

@@ -102,7 +102,7 @@ body,td,th {
 body {
 	background-image: url(../../../imagenes/JPEG/edificio_corporativo.jpg);
 }
--->
+
 </style>
 <script> 
 var segundos=1200

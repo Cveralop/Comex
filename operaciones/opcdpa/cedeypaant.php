@@ -50,11 +50,12 @@ a:active {
 }
 .Estilo8 {color: #FFFFFF; font-size: 12px;}
 .Estilo15 {font-size: 9px}
--->
+
 </style>
+
 <script>
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
+var direccion='../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos);
 function MM_jumpMenu(targ,selObj,restore){ //v3.0
@@ -62,6 +63,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
   if (restore) selObj.selectedIndex=0;
 }
 </script> 
+
 </head>
 <link rel="shortcut icon" href="../../imagenes/barraweb/favicon.ico">
 <link rel="icon" type="image/gif" href="../../imagenes/barraweb/animated_favicon1.gif">
@@ -70,11 +72,6 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
   <tr>
     <td width="73%" align="left"><span class="Estilo3">CESIONES DE DERECHO Y PAGO ANTICIPADO</span></td>
     <td width="27%" rowspan="2" align="left">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60" align="right">
-          <param name="movie" value="../../imagenes/SWF/reloj_3.swf">
-          <param name="quality" value="high">
-          <embed src="../../imagenes/SWF/reloj_3.swf" width="250" height="60" align="right" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
-        </object>
     </div></td>
   </tr>
   <tr>

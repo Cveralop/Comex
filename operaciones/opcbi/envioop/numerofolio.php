@@ -107,7 +107,7 @@ body,td,th {
 body {
 	background-image: url(../../../imagenes/JPEG/edificio_corporativo.jpg);
 }
--->
+
 </style>
 <script type="text/javascript">
 function MM_swapImgRestore() { //v3.0

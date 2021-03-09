@@ -87,7 +87,7 @@ $totalRows_usuario = mysqli_num_rows($usuario);
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Negocio Internacional Post Venta</title>
 <style type="text/css">
-<!--
+
 .Estilo3 {font-size: 24px;
 	color: #FFFFFF;
 	font-weight: bold;
@@ -127,10 +127,10 @@ a:active {
 	color: #0000FF;
 	font-weight: bold;
 }
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
-<!--
+
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 }
@@ -154,15 +154,17 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
   eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
   if (restore) selObj.selectedIndex=0;
 }
-//-->
+/
 </script>
+
 <script>
 //Script original de KarlanKas para forosdelweb.com 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
+var direccion='../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos);
 </script>
+
 <link href="../../estilos/estilo12.css" rel="stylesheet" type="text/css">
 </head>
 <link rel="shortcut icon" href="../../imagenes/barraweb/favicon.ico">
@@ -172,11 +174,11 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
   <tr>
     <td align="left" valign="middle"><span class="Estilo3"> </span><span class="Estilo3"> NEGOCIO INTERNACIONAL POST VENTA</span></td>
     <td rowspan="2" align="right" valign="middle">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60">
+        <!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60">
           <param name="movie" value="../../imagenes/SWF/reloj_3.swf">
           <param name="quality" value="high">
           <embed src="../../imagenes/SWF/reloj_3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="250" height="60"></embed>
-        </object>
+        </object> -->
     </div></td>
   </tr>
   <tr>

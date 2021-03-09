@@ -161,7 +161,7 @@ a:active {
 	color: #FF0000;
 	font-weight: bold;
 }
--->
+
 </style><title>Eliminar Aceptacion Protesto - Maestro</title>
 <script language="JavaScript" type="text/JavaScript">
 <!--

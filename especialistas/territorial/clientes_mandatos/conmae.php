@@ -163,7 +163,7 @@ a:active {
 	font-size: 12px;
 }
 .Estilo7 {color: #FFFFFF; font-weight: bold; }
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
 <!--
@@ -186,8 +186,9 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
-//-->
+
 </script>
+
 <script> 
 //Script original de KarlanKas para forosdelweb.com 
 var segundos=1200
@@ -195,6 +196,7 @@ var direccion='../cierre.php'
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos); 
 </script> 
+
 <link rel="shortcut icon" href="../../../imagenes/barraweb/favicon.ico">
 <link rel="icon" type="image/gif" href="../../../imagenes/barraweb/animated_favicon1.gif">
 </head>
@@ -284,7 +286,7 @@ Registros del <strong><?php echo ($startRow_consulta + 1) ?></strong> al <strong
 <br>
 <table width="95%"  border="0" align="center">
   <tr>
-    <td align="right" valign="middle"><a href="../clientes/clientes.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','../../../imagenes/Botones/boton_volver_2.jpg',1)"><img src="../../../imagenes/Botones/boton_volver_1.jpg" alt="Volver" name="Image2" width="80" height="25" border="0"></a></div></td>
+    <td align="right" valign="middle"><a href="../clientes_mandatos/clientes_mandatos.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','../../../imagenes/Botones/boton_volver_2.jpg',1)"><img src="../../../imagenes/Botones/boton_volver_1.jpg" alt="Volver" name="Image2" width="80" height="25" border="0"></a></div></td>
   </tr>
 </table>
 </body>

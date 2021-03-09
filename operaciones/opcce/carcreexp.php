@@ -90,7 +90,7 @@ a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
 function MM_preloadImages() { //v3.0
@@ -117,12 +117,14 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
 </script>
+
 <script>
 var segundos=1200
-var direccion='http://180.122.14.168:8303/comex/index.php' 
+var direccion='../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos);
 </script> 
+
 </head>
 <link rel="shortcut icon" href="../../imagenes/barraweb/favicon.ico">
 <link rel="icon" type="image/gif" href="../../imagenes/barraweb/animated_favicon1.gif">
@@ -131,11 +133,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
   <tr>
     <td width="73%" align="left" valign="middle"><span class="Estilo3">CARTAS DE CR&Eacute;DITO EXPORTACIONES</span></td>
     <td width="27%" rowspan="2" align="left" valign="middle"><div align="right">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60" align="right">
-          <param name="movie" value="../../imagenes/SWF/reloj_3.swf">
-          <param name="quality" value="high">
-          <embed src="../../imagenes/SWF/reloj_3.swf" width="250" height="60" align="right" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
-        </object>
+        <!--  -->
     </div></td>
   </tr>
   <tr>

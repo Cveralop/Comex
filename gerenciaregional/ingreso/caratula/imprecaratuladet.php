@@ -53,7 +53,7 @@ body,td,th {
 	color: #000;
 }
 .Estilo9 {font-size: 24px; font-weight: bold; }
--->
+
 </style>
 <script> 
 window.print(); 

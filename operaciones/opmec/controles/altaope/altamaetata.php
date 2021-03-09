@@ -183,7 +183,7 @@ a:active {
 	font-weight: bold;
 }
 .Estilo8 {color: #FFFFFF; font-weight: bold; }
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
 function MM_preloadImages() { //v3.0
@@ -217,7 +217,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 <style type="text/css">
 <!--
 .Estilo11 {color: #00FF00}
--->
+
 </style>
 </head>
 <meta http-equiv="refresh" content="60" />

@@ -77,7 +77,7 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
--->
+
 </style>
 <link href="../../../estilos/estilo12.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
@@ -86,7 +86,7 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <script type="text/javascript">
 <!--

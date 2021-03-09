@@ -230,7 +230,7 @@ a:active {
 	color: #FF0000;
 	font-weight: bold;
 }
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
 function MM_preloadImages() { //v3.0
@@ -268,7 +268,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 <style type="text/css">
 <!--
 .Estilo11 {color: #00FF00}
--->
+
 </style>
 </head>
 <body onLoad="MM_preloadImages('../../../../imagenes/Botones/boton_volver_2.jpg')">

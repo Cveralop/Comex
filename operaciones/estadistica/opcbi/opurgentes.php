@@ -145,7 +145,7 @@ a:active {
 	font-weight: bold;
 }
 .Estilo7 {font-size: 14px; font-weight: bold; }
--->
+
 </style>
 <script> 
 var segundos=1200

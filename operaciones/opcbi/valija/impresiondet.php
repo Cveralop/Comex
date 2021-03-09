@@ -109,7 +109,7 @@ a {
 .Estilo2 {color: #FFFFFF; font-weight: bold; }
 .Estilo7 {font-size: 10px; font-weight: bold; }
 .Estilo9 {font-size: 24px; font-weight: bold; }
--->
+
 </style>
 <script> 
 window.print(); 

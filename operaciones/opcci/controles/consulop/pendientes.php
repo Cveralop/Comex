@@ -163,7 +163,7 @@ a:active {
 	font-weight: bold;
 }
 .Estilo16 {color: #00FF00}
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
 function MM_preloadImages() { //v3.0
@@ -197,7 +197,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 <style type="text/css">
 <!--
 .Estilo25 {font-size: 12px; font-weight: bold; }
--->
+
 </style>
 </head>
 <meta http-equiv="refresh" content="60" />

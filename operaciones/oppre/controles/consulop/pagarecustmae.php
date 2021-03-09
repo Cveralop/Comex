@@ -150,7 +150,7 @@ a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style>
 <script> 
 var segundos=1200

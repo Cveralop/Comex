@@ -161,7 +161,7 @@ a:active {
 	font-weight: bold;
 }
 .Estilo11 {color: #00FF00}
--->
+
 </style><title>Ingreso Modificaci&oacute;n Prestamos Varios - Maestro</title>
 <script language="JavaScript" type="text/JavaScript">
 function MM_swapImgRestore() { //v3.0

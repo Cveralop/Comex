@@ -59,7 +59,7 @@ body,td,th {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 9px;
 }
--->
+
 </style>
 <script>
 //Script original de KarlanKas para forosdelweb.com 

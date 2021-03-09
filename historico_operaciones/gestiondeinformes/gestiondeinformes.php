@@ -92,7 +92,7 @@ a:active {
 .Estilo8 {font-size: 10px; font-weight: bold; color: #FFFFFF; }
 .Estilo9 {color: #CCCCCC}
 .Estilo10 {color: #0000FF}
--->
+
 </style>
 <script> 
 //Script original de KarlanKas para forosdelweb.com 
@@ -135,11 +135,7 @@ function MM_swapImage() { //v3.0
     <td width="5%" valign="middle"><img src="../../imagenes/GIF/erde016.gif" width="43" height="43" align="left"></td>
     <td width="66%" align="left" valign="middle"><span class="Estilo3">GESTI&Oacute;N DE INFORMES</span></td>
     <td width="29%" valign="middle">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60" align="right">
-          <param name="movie" value="../../imagenes/SWF/reloj_3.swf">
-          <param name="quality" value="high">
-          <embed src="../../imagenes/SWF/reloj_3.swf" width="250" height="60" align="right" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
-        </object>
+        
     </div></td>
   </tr>
 </table>

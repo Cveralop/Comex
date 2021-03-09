@@ -34,7 +34,7 @@ a:active {
 .Estilo7 {font-size: 24px}
 .Estilo8 {font-weight: bold; color: #0000FF;}
 .Estilo9 {color: #0000FF}
--->
+
 </style></head>
 <link rel="shortcut icon" href="../imagenes/barraweb/favicon.ico">
 <link rel="icon" type="image/gif" href="../imagenes/barraweb/animated_favicon1.gif">

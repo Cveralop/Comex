@@ -94,13 +94,13 @@ body,td,th {
 	font-size: 10px;
 	color: #000;
 }
--->
+
 </style>
 <link href="../../../estilos/estilo12.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!--
 .Estilo8 {color: #666666}
--->
+
 </style>
 <script>
 //Script original de KarlanKas para forosdelweb.com 

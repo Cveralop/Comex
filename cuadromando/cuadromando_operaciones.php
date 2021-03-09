@@ -99,7 +99,7 @@ body {
 	background-color: #F00;
 	font-weight: bold;
 }
--->
+
 </style>
 <script> 
 //Script original de KarlanKas para forosdelweb.com 
@@ -129,7 +129,7 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
--->
+
 </style></head>
 <body>
 <table width="95%"  border="1" align="center" bordercolor="#FF0000" bgcolor="#FF0000">

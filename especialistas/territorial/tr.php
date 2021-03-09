@@ -86,9 +86,10 @@ $totalRows_usuario = mysqli_num_rows($usuario);
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Especialistas TR</title>
+
 <style type="text/css">
-<!--
-@import url("../../estilos/estilo12.css");
+
+ @import url("../../estilos/estilo12.css");
 .Estilo3 {font-size: 24px;
 	color: #FFFFFF;
 	font-weight: bold;
@@ -134,10 +135,11 @@ a:active {
 	background-color: #F00;
 	font-weight: bold;
 }
--->
+
 </style>
-<script language="JavaScript" type="text/JavaScript">
-<!--
+
+<!-- <script language="JavaScript" type="text/JavaScript">
+
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 }
@@ -157,21 +159,20 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
-//-->
-</script>
+</script> -->
+
 <script>
-<!--
 //Script original de KarlanKas para forosdelweb.com 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
+var direccion='../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos);
 function MM_jumpMenu(targ,selObj,restore){ //v3.0
   eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
   if (restore) selObj.selectedIndex=0;
 }
-//-->
 </script>
+
 </head>
 <link rel="shortcut icon" href="../../imagenes/barraweb/favicon.ico">
 <link rel="icon" type="image/gif" href="../../imagenes/barraweb/animated_favicon1.gif">
@@ -180,11 +181,11 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
   <tr>
     <td align="left" valign="middle"><span class="Estilo3"> </span><span class="Estilo3">ESPECIALISTAS TERRITORIAL</span></td>
     <td rowspan="2" align="right" valign="middle">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60">
+        <!-- <!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60">
           <param name="movie" value="../../imagenes/SWF/reloj_3.swf">
           <param name="quality" value="high">
           <embed src="../../imagenes/SWF/reloj_3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="250" height="60"></embed>
-        </object>
+        </object> --> -->
     </div></td>
   </tr>
   <tr>

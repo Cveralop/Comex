@@ -119,7 +119,7 @@ $totalRows_excepciones = mysqli_num_rows($excepciones);
 <style type="text/css">
 <!--
 .Estilo13 {font-size: 14px}
--->
+
 </style>
 <link href="../../../estilos/estilo12.css" rel="stylesheet" type="text/css">
 <head>
@@ -141,7 +141,7 @@ a {
 }
 .Estilo12 {font-size: 14px; font-weight: bold; }
 .Estilo9 {font-size: 24px; font-weight: bold; }
--->
+
 </style>
 <script> 
 window.print(); 

@@ -160,7 +160,7 @@ a:active {
 	font-size: 12px;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <script>
 var segundos=1200

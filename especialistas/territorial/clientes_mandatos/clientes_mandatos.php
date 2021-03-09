@@ -89,7 +89,7 @@ a:active {
 	font-size: 12px;
 	font-weight: bold;
 }
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
 <!--
@@ -130,7 +130,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 </head>
 <body onLoad="MM_preloadImages('../../../imagenes/Botones/boton_volver_2.jpg')">

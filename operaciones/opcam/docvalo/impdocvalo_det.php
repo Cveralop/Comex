@@ -122,7 +122,7 @@ body,td,th {
 .Estilo7 {	font-size: 9px;
 	font-weight: bold;
 }
--->
+
 </style>
 </head>
 <body>

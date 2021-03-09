@@ -86,7 +86,7 @@ body,td,th {
 	font-weight: bold;
 }
 .Estilo8 {color: #666666}
--->
+
 </style>
 <script>
 var segundos=1200

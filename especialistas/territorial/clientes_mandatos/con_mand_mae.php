@@ -147,11 +147,10 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
 </style>
 <link href="../../../estilos/estilo12.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
-<!--
+
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 }
@@ -176,10 +175,11 @@ function MM_swapImage() { //v3.0
 <script> 
 //Script original de KarlanKas para forosdelweb.com 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
+var direccion='../../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos); 
 </script>
+
 <body onLoad="MM_preloadImages('../../../imagenes/Botones/boton_volver_2.jpg')"><table width="95%"  border="1" align="center" bordercolor="#FF0000" bgcolor="#FF0000">
   <tr valign="middle">
     <td align="left" class="Estilo3">CONSULTA MANDATO - MAESTRO</td>

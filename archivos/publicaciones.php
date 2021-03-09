@@ -38,7 +38,7 @@ a:active {
 	font-size: 18px;
 	font-weight: bold;
 }
--->
+
 </style>
 <title>Publicaciones - ENERO</title>
 <script language="JavaScript" type="text/JavaScript">

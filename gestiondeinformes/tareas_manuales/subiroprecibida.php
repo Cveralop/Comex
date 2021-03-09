@@ -39,7 +39,7 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 </head>
 <?php 

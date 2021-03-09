@@ -123,7 +123,7 @@ a:active {
 	color: #FF0000;
 	font-weight: bold;
 }
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
 <!--
@@ -165,7 +165,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 <!--
 .Estilo11 {color: #00FF00}
 .Estilo12 {color: #FFFFFF}
--->
+
 </style>
 </head>
 <link rel="shortcut icon" href="../../../../imagenes/barraweb/favicon.ico">

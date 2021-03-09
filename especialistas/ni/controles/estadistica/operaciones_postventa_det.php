@@ -107,7 +107,7 @@ body,td,th {
 	color: #000;
 	font-weight: bold;
 }
--->
+
 </style>
 <link href="../../../../estilos/estilo12.css" rel="stylesheet" type="text/css" />
 <script>
@@ -121,7 +121,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 body {
 	background-image: url(../../../../imagenes/JPEG/edificio_corporativo.jpg);
 }
--->
+
 </style>
 </head>
 <body onload="MM_preloadImages('../../../../imagenes/Botones/boton_volver_2.jpg')">

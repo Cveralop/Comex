@@ -150,7 +150,7 @@ a:active {
 }
 .Estilo8 {color: #0000FF}
 .Estilo9 {font-size: 14px}
--->
+
 </style>
 <script> 
 var segundos=1200

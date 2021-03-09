@@ -175,7 +175,7 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <link href="../../../../estilos/estilo12.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
@@ -204,7 +204,7 @@ function MM_swapImage() { //v3.0
 <style type="text/css">
 <!--
 .Estilo12 {color: #FFFFFF; font-weight: bold; }
--->
+
 </style>
 </head>
 <body onload="MM_preloadImages('../../../../imagenes/Botones/boton_volver_2.jpg')">

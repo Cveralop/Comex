@@ -52,7 +52,7 @@ body,td,th {
 	font-size: 12px;
 	color: #000;
 }
--->
+
 </style></head>
 <body>
 <table border="1" align="center">

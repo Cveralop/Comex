@@ -87,10 +87,10 @@ a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
-<!--
+
 function MM_findObj(n, d) { //v4.01
   var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
     d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
@@ -110,16 +110,16 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
-//-->
+
 </script>
+
 <script>
-<!--
 //Script original de KarlanKas para forosdelweb.com 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/' 
+var direccion='../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos);
-//-->
+
 </script>
 </head>
 <body onLoad="MM_preloadImages('../../imagenes/Botones/boton_volver_2.jpg')">
@@ -127,11 +127,6 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
   <tr>
     <td width="73%" align="left" valign="middle"><span class="Estilo7"><span class="titulopaguina">ADMINISTRACI&Oacute;N PAGARE  PARAGUAS</span></span></td>
     <td width="27%" rowspan="2" align="left" valign="middle">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60" align="right">
-          <param name="movie" value="../../imagenes/SWF/reloj_3.swf">
-          <param name="quality" value="high">
-          <embed src="../../imagenes/SWF/reloj_3.swf" width="250" height="60" align="right" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
-        </object>
     </div></td>
   </tr>
   <tr>

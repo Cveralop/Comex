@@ -97,7 +97,7 @@ body,td,th {
 	font-size: 12px;
 	color: #000000;
 }
--->
+
 </style>
 <script>
 var segundos=1200

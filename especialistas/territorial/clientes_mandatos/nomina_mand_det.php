@@ -114,7 +114,7 @@ body,td,th {
 	font-size: 10px;
 	color: #000;
 }
--->
+
 </style>
 <script> 
 //Script original de KarlanKas para forosdelweb.com 

@@ -6,44 +6,44 @@ if (!isset($_SESSION)) {
 $MM_authorizedUsers = "RED,ADM";
 $MM_donotCheckaccess = "false";
 // *** Restrict Access To Page: Grant or deny access to this page
-function isAuthorized($strUsers, $strGroups, $UserName, $UserGroup) { 
-  // For security, start by assuming the visitor is NOT authorized. 
-  $isValid = False; 
-  // When a visitor has logged into this site, the Session variable MM_Username set equal to their username. 
-  // Therefore, we know that a user is NOT logged in if that Session variable is blank. 
-  if (!empty($UserName)) { 
-    // Besides being logged in, you may restrict access to only certain users based on an ID established when they login. 
-    // Parse the strings into arrays. 
-    $arrUsers = Explode(",", $strUsers); 
-    $arrGroups = Explode(",", $strGroups); 
-    if (in_array($UserName, $arrUsers)) { 
-      $isValid = true; 
-    } 
-    // Or, you may restrict access to only certain users based on their username. 
-    if (in_array($UserGroup, $arrGroups)) { 
-      $isValid = true; 
-    } 
-    if (($strUsers == "") && false) { 
-      $isValid = true; 
-    } 
-  } 
-  return $isValid; 
+function isAuthorized($strUsers, $strGroups, $UserName, $UserGroup) {
+  // For security, start by assuming the visitor is NOT authorized.
+  $isValid = False;
+  // When a visitor has logged into this site, the Session variable MM_Username set equal to their username.
+  // Therefore, we know that a user is NOT logged in if that Session variable is blank.
+  if (!empty($UserName)) {
+    // Besides being logged in, you may restrict access to only certain users based on an ID established when they login.
+    // Parse the strings into arrays.
+    $arrUsers = Explode(",", $strUsers);
+    $arrGroups = Explode(",", $strGroups);
+    if (in_array($UserName, $arrUsers)) {
+      $isValid = true;
+    }
+    // Or, you may restrict access to only certain users based on their username.
+    if (in_array($UserGroup, $arrGroups)) {
+      $isValid = true;
+    }
+    if (($strUsers == "") && false) {
+      $isValid = true;
+    }
+  }
+  return $isValid;
 }
 $MM_restrictGoTo = "erroracceso.php";
-if (!((isset($_SESSION['MM_Username'])) && (isAuthorized("",$MM_authorizedUsers, $_SESSION['MM_Username'], $_SESSION['MM_UserGroup'])))) {   
+if (!((isset($_SESSION['MM_Username'])) && (isAuthorized("",$MM_authorizedUsers, $_SESSION['MM_Username'], $_SESSION['MM_UserGroup'])))) {
   $MM_qsChar = "?";
   $MM_referrer = $_SERVER['PHP_SELF'];
   if (strpos($MM_restrictGoTo, "?")) $MM_qsChar = "&";
-  if (isset($QUERY_STRING) && strlen($QUERY_STRING) > 0) 
+  if (isset($QUERY_STRING) && strlen($QUERY_STRING) > 0)
   $MM_referrer .= "?" . $QUERY_STRING;
   $MM_restrictGoTo = $MM_restrictGoTo. $MM_qsChar . "accesscheck=" . urlencode($MM_referrer);
-  header("Location: ". $MM_restrictGoTo); 
+  header("Location: ". $MM_restrictGoTo);
   exit;
 }
 ?>
 <?php
 if (!function_exists("GetSQLValueString")) {
-function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
+function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "")
 {
   global $comercioexterior;
 
@@ -56,7 +56,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
   switch ($theType) {
     case "text":
       $theValue = ($theValue != "") ? "'" . $theValue . "'" : "NULL";
-      break;    
+      break;
     case "long":
     case "int":
       $theValue = ($theValue != "") ? intval($theValue) : "NULL";
@@ -132,14 +132,14 @@ a:active {
 	color: #0000FF;
 	font-weight: bold;
 }
--->
+
 </style>
 <script>
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
-milisegundos=segundos*1000 
+var direccion='http://pdpto38:8303/comex/index.php'
+milisegundos=segundos*1000
 window.setTimeout("window.location.replace(direccion);",milisegundos);
-</script> 
+</script>
 </head>
 <link rel="shortcut icon" href="../../imagenes/barraweb/favicon.ico">
 <link rel="icon" type="image/gif" href="../../imagenes/barraweb/animated_favicon1.gif">
@@ -148,11 +148,11 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
   <tr>
     <td align="left" valign="middle"><span class="Estilo3"> </span><span class="Estilo3">RED DE SUCURSALES</span></td>
     <td rowspan="2" align="right" valign="middle">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60">
+         <!-- <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60">
           <param name="movie" value="../../imagenes/SWF/reloj_3.swf">
           <param name="quality" value="high">
           <embed src="../../imagenes/SWF/reloj_3.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="250" height="60"></embed>
-        </object>
+        </object> -->
     </div></td>
   </tr>
   <tr>

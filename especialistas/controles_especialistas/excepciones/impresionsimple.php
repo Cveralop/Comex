@@ -162,7 +162,7 @@ body,td,th {
 }
 .Estilo9 {font-size: 24px; font-weight: bold; }
 .Estilo12 {font-size: 14px; font-weight: bold; }
--->
+
 </style>
 </head>
 <body onLoad="MM_preloadImages('../../../imagenes/Botones/boton_volver_2.jpg')">

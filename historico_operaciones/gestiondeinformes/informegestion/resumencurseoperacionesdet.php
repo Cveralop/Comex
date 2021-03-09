@@ -105,7 +105,7 @@ body,td,th {
 	color: #000;
 	font-weight: bold;
 }
--->
+
 </style>
 <link href="../../../estilos/estilo12.css" rel="stylesheet" type="text/css" />
 </head>

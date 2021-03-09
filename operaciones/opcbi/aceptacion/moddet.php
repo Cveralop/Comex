@@ -172,7 +172,7 @@ a:active {
 	color: #FF0000;
 	font-weight: bold;
 }
--->
+
 </style>
 <title>Modificar Aceptaci&oacute;n Protesto CBI - Detalle</title>
 <script src="../../../SpryAssets/SpryValidationTextarea.js" type="text/javascript"></script>

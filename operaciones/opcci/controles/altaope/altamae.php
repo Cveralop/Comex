@@ -236,7 +236,7 @@ a:active {
 	font-weight: bold;
 }
 .Estilo8 {color: #FFFFFF; font-weight: bold; }
--->
+
 </style>
 <script src="../../../../SpryAssets/SpryCollapsiblePanel.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/JavaScript">
@@ -276,7 +276,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 <style type="text/css">
 <!--
 .Estilo121 {color: #FFFFFF; font-weight: bold; }
--->
+
 </style>
 </head>
 <meta http-equiv="refresh" content="60" />

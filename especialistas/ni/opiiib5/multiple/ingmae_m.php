@@ -169,7 +169,7 @@ a:active {
 	color: #FF0000;
 	font-weight: bold;
 }
--->
+
 </style>
 <script>
 //Script original de KarlanKas para forosdelweb.com 

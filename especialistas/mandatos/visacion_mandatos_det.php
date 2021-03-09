@@ -162,7 +162,7 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <title>Visacion Mandatos - Detalle</title>
 <link href="../../estilos/estilo12.css" rel="stylesheet" type="text/css" />

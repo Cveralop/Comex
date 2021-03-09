@@ -54,7 +54,7 @@ $totalRows_DetailRS1 = mysqli_num_rows($DetailRS1);
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Consulta Pagar&eacute; Paragua - Detalle</title>
 <style type="text/css">
-<!--
+
 @import url("../../estilos/estilo12.css");
 .Estilo3 {font-size: 18px;
 	font-weight: bold;
@@ -100,16 +100,16 @@ a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style>
 <script>
-<!--
+
 //Script original de KarlanKas para forosdelweb.com 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/' 
+var direccion='../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos);
-//-->
+
 </script>
 </head>
 <body>

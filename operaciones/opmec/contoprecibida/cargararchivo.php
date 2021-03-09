@@ -158,7 +158,7 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
--->
+
 </style>
 <script> 
 //Script original de KarlanKas para forosdelweb.com 

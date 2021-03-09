@@ -99,7 +99,7 @@ body,td,th {
 	font-size: 10px;
 	color: #000;
 }
--->
+
 </style>
 <script> 
 var direccion='http://pdpto38:8303/comex/index.php' 

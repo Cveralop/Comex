@@ -167,7 +167,7 @@ a:active {
 .Estilo10 {color: #FFFFFF; font-weight: bold; }
 .Estilo11 {font-size: 12px}
 .Estilo12 {color: #00FF00}
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
 function MM_swapImgRestore() { //v3.0
@@ -204,7 +204,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 	color: #FF0000;
 	font-weight: bold;
 }
--->
+
 </style>
 </head>
 <body onLoad="MM_preloadImages('../../../imagenes/Botones/boton_volver_2.jpg')">

@@ -86,7 +86,7 @@ a:active {
 	color: #0000FF;
 	font-weight: bold;
 }
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
 <!--
@@ -131,11 +131,6 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
   <tr>
     <td align="left" valign="middle"><span class="Estilo3"> </span><span class="Estilo3">CAMBIOS - BOLETA DE GARANT&Iacute;A</span></td>
     <td width="36%" align="left" valign="middle">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60" align="right">
-          <param name="movie" value="../../../imagenes/SWF/reloj_3.swf">
-          <param name="quality" value="high">
-          <embed src="../../../imagenes/SWF/reloj_3.swf" width="250" height="60" align="right" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
-        </object>
     </div></td>
   </tr>
 </table>

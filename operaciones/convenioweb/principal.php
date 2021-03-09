@@ -87,25 +87,23 @@ a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style>
+
 <script>
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/' 
+var direccion='../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos);
 </script>
+
 </head>
 <body onLoad="MM_preloadImages('../../imagenes/Botones/boton_volver_2.jpg')">
 <table width="95%"  border="1" align="center" bordercolor="#FF0000" bgcolor="#FF0000">
   <tr>
     <td width="79%" align="left" valign="middle"><span class="Estilo7"><span class="titulopaguina">ADMINISTRACI&Oacute;N CONVENIO WEB</span></span></td>
     <td width="21%" rowspan="2" align="left" valign="middle">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60" align="right">
-          <param name="movie" value="../../imagenes/SWF/reloj_3.swf">
-          <param name="quality" value="high">
-          <embed src="../../imagenes/SWF/reloj_3.swf" width="250" height="60" align="right" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
-        </object>
+        
     </div></td>
   </tr>
   <tr>

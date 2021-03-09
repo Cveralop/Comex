@@ -75,7 +75,7 @@ body,td,th {
 	font-size: 14px;
 	color: #000000;
 }
--->
+
 </style>
 </style>
 <script> 
@@ -90,7 +90,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 <style type="text/css">
 <!--
 .Estilo14 {font-family: Verdana, Arial, Helvetica, sans-serif}
--->
+
 </style>
 </head>
 <body>

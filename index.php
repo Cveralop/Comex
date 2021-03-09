@@ -68,10 +68,8 @@ if (isset($_POST['usuario'])) {
 
   $LoginRS = mysqli_query($comercioexterior, $LoginRS__query) or die(mysqli_error($comercioexterior)); //$LoginRS = mysqli_query($comercioexterior, $LoginRS__query) or die(mysqli_error($comercioexterior));
   $loginFoundUser = mysqli_num_rows($LoginRS);
-  //var_dump($loginFoundUser); die;
   if ($loginFoundUser > 0) {
-    $loginStrGroup = mysqli_fetch_array($LoginRS); //REVISAR
-   // var_dump($loginStrGroup); die;
+    $loginStrGroup = mysqli_fetch_array($LoginRS);
     //$loginStrGroup = mysqli_result($LoginRS,0,'perfil'); //Original
     
     //declare two session variables and assign them

@@ -152,7 +152,7 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <script>
 function MM_swapImgRestore() { //v3.0

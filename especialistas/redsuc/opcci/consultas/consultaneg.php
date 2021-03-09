@@ -143,7 +143,7 @@ a:active {
 	color: #FF0000;
 	font-weight: bold;
 }
--->
+
 </style>
 <script>
 var segundos=1200
@@ -156,7 +156,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 <style type="text/css">
 <!--
 .Estilo12 {color: #FFFFFF}
--->
+
 </style>
 </head>
 <body onLoad="MM_preloadImages('../../../../imagenes/Botones/boton_volver_2.jpg')">

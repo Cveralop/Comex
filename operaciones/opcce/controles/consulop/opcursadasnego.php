@@ -142,7 +142,7 @@ a:active {
 }
 .Estilo10 {color: #00FF00}
 .Estilo11 {color: #FF0000}
--->
+
 </style><title>Operaciones Cursadas Exportaciones</title>
 <script language="JavaScript" type="text/JavaScript">
 function MM_preloadImages() { //v3.0

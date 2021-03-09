@@ -141,7 +141,7 @@ a:active {
 	color: #FF0000;
 	font-weight: bold;
 }
--->
+
 </style>
 <script>
 var segundos=1200
@@ -152,7 +152,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 <style type="text/css">
 <!--
 .Estilo121 {color: #FFFFFF; font-weight: bold; }
--->
+
 </style>
 </head>
 <link rel="shortcut icon" href="../../../../../imagenes/barraweb/favicon.ico">

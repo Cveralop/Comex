@@ -215,7 +215,7 @@ a:active {
 #sprytextfield2 label {
 	font-size: 10px;
 }
--->
+
 </style>
 <script src="../../SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
 <script src="../../SpryAssets/SpryValidationTextarea.js" type="text/javascript"></script>

@@ -124,7 +124,7 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
--->
+
 </style>
 <link href="../../../estilos/estilo12.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">

@@ -138,7 +138,7 @@ a:active {
 .Estilo9 {color: #FFFFFF; font-weight: bold; }
 .Estilo12 {font-size: 12px}
 .Estilo13 {color: #00FF00}
--->
+
 </style><title>Operaciones Canceladas PAE Sin DUS - Maestro</title>
 <script> 
 var segundos=1200

@@ -165,7 +165,7 @@ a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style><title>Ingreso Cesi&oacute;n de Derecho o Pago Anticipado - Detalle</title>
 </style>
 <script> 

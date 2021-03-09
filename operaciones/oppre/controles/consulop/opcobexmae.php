@@ -144,7 +144,7 @@ a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style><title>Operaciones con Tasa Variable</title>
 <script>
 var segundos=1200

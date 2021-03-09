@@ -128,7 +128,7 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <script> 
 var direccion='http://pdpto38:8303/comex/index.php' 

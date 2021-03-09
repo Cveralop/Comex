@@ -190,11 +190,11 @@ a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 }
--->
+
 </style>
-<script src="../../SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<!-- <script src="../../SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/JavaScript">
-<!--
+
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 }
@@ -214,17 +214,18 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
-//-->
-</script>
+
+</script> -->
+
 <script>
-<!--
 //Script original de KarlanKas para forosdelweb.com 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/' 
+var direccion='../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos);
-//-->
+
 </script>
+
 <link href="../../SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css">
 </head>
 <body onLoad="MM_preloadImages('../../imagenes/Botones/boton_volver_2.jpg')">

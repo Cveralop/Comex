@@ -124,7 +124,7 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <title>Consulta Mandatos - Detalle</title>
 <script> 

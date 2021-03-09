@@ -63,7 +63,7 @@ body,td,th {
 body {
 	background-image: url();
 }
--->
+
 </style>
 <link href="../../../estilos/estilo12.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">

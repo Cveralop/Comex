@@ -160,7 +160,7 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <link href="../../../estilos/estilo12.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -175,7 +175,7 @@ a:active {
 	color: #FF0000;
 	font-weight: bold;
 }
--->
+
 </style>
 <script src="../../../SpryAssets/SpryValidationTextarea.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/JavaScript">
@@ -225,7 +225,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 <style type="text/css">
 <!--
 .Estilo9 {color: #FFFFFF; font-weight: bold; font-size: 12px; }
--->
+
 </style>
 </head>
 <link rel="shortcut icon" href="../../../imagenes/barraweb/favicon.ico">

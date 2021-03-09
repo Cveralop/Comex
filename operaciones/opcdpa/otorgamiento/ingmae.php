@@ -141,7 +141,7 @@ a:active {
 	font-weight: bold;
 }
 .Estilo11 {color: #00FF00}
--->
+
 </style><title>Ingreso Cesi&oacute;n de Derecho o Pago Anticipado - Maestro</title>
 </style>
 <script> 

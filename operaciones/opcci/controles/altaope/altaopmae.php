@@ -100,12 +100,12 @@ if (isset($_SESSION['login'])) {
 mysqli_select_db($comercioexterior, $database_comercioexterior);
 $query_operador = sprintf("SELECT opcci.*,(usuarios.nombre)as ne FROM opcci, usuarios WHERE operador = %s and sub_estado = %s and nro_operacion LIKE %s and urgente = %s and fuera_horario = %s and (opcci.especialista_curse = usuarios.usuario) ORDER BY date_asig ASC", GetSQLValueString($colname_operador, "text"),GetSQLValueString($colname1_operador, "text"),GetSQLValueString("%" . $colname2_operador . "%", "text"),GetSQLValueString($colname3_operador, "text"),GetSQLValueString($colname4_operador, "text"));
 $query_limit_operador = sprintf("%s LIMIT %d, %d", $query_operador, $startRow_operador, $maxRows_operador);
-$operador = mysql_query($query_limit_operador, $comercioexterior) or die(mysqli_error());
+$operador = mysqli_query($comercioexterior, $query_limit_operador) or die(mysqli_error($comercioexterior));
 $row_operador = mysqli_fetch_assoc($operador);
 if (isset($_GET['totalRows_operador'])) {
   $totalRows_operador = $_GET['totalRows_operador'];
 } else {
-  $all_operador = mysql_query($query_operador);
+  $all_operador = mysqli_query($comercioexterior, $query_operador);
   $totalRows_operador = mysqli_num_rows($all_operador);
 }
 $totalPages_operador = ceil($totalRows_operador/$maxRows_operador)-1;
@@ -229,7 +229,7 @@ a:active {
 	font-weight: bold;
 }
 .Estilo11 {color: #00FF00}
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
 function MM_swapImgRestore() { //v3.0

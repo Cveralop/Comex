@@ -139,7 +139,7 @@ a:active {
 	color: #FF0000;
 	font-weight: bold;
 }
--->
+
 </style>
 </head>
 <body onLoad="MM_preloadImages('../../../../imagenes/Botones/boton_volver_2.jpg')">

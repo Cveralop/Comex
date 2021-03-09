@@ -124,7 +124,7 @@ a:active {
 	font-weight: bold;
 }
 .Estilo7 {color: #FFFFFF; font-weight: bold; }
--->
+
 </style><title>Control Operciones Comisiones Periodicas III B5</title>
 <script language="JavaScript" type="text/JavaScript">
 function MM_preloadImages() { //v3.0

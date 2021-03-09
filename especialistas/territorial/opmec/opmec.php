@@ -86,7 +86,7 @@ a:active {
 	color: #0000FF;
 	font-weight: bold;
 }
--->
+
 </style>
 <script language="JavaScript" type="text/JavaScript">
 <!--
@@ -118,7 +118,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 <script>
 //Script original de KarlanKas para forosdelweb.com 
 var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
+var direccion='../../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos);
 </script>
@@ -131,11 +131,6 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
   <tr valign="middle">
     <td align="left"><span class="Estilo3"> </span><span class="Estilo3">MERCADO DE CORREDORES</span></td>
     <td width="36%" align="left">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="250" height="60" align="right">
-          <param name="movie" value="../../../imagenes/SWF/reloj_3.swf">
-          <param name="quality" value="high">
-          <embed src="../../../imagenes/SWF/reloj_3.swf" width="250" height="60" align="right" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
-        </object>
     </div></td>
   </tr>
 </table>

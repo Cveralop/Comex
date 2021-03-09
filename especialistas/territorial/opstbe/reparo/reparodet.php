@@ -135,7 +135,7 @@ a:active {
 	font-weight: bold;
 	color: #FFFFFF;
 }
--->
+
 </style>
 <script>
 //Script original de KarlanKas para forosdelweb.com 

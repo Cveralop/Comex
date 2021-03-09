@@ -36,14 +36,14 @@ a:active {
 .Estilo7 {font-size: 24px}
 .Estilo8 {font-weight: bold; color: #0000FF;}
 .Estilo9 {color: #0000FF}
--->
+
 </style></head>
 <body>
 <br>
 <br>
 <table width="95%"  border="0" align="center">
   <tr>
-    <td valign="middle"><div align="justify" class="Estilo7"><span class="Estilo8">Estimado Se&ntilde;or usuario le informo que usted no tiene acceso a este modulo, favor haga click </span><span class="Estilo9"><a href="../principal.php">aqu&iacute;</a></span><span class="Estilo8"> para volver a la p&aacute;gina anterior.</span></div></td>
+    <td valign="middle"><div align="justify" class="Estilo7"><span class="Estilo8">Estimado Se&ntilde;or usuario le informo que usted no tiene acceso a este modulo, favor haga click </span><span class="Estilo9"><a href="../../index.php">aqu&iacute;</a></span><span class="Estilo8"> para volver a la p&aacute;gina anterior.</span></div></td>
   </tr>
 </table>
 <br>

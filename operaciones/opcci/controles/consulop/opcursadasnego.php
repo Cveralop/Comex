@@ -143,7 +143,7 @@ a:active {
 .Estilo10 {color: #00FF00}
 .Estilo11 {color: #FF0000}
 .Estilo13 {color: #FF0000; font-weight: bold; }
--->
+
 </style><title>Operaciones Cursadas</title>
 <script language="JavaScript" type="text/JavaScript">
 function MM_preloadImages() { //v3.0
