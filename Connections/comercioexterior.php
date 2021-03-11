@@ -8,7 +8,7 @@
 $hostname_comercioexterior = 'comexdbtest.mysql.database.azure.com';
 $database_comercioexterior = 'comercioexterior';
 $username_comercioexterior = 'xmsadmin@comexdbtest';
-$password_comercioexterior = 'Manquehue01..';
+$password_comercioexterior = 'Microsoft01*';
 
 $comercioexterior = mysqli_init();
 mysqli_ssl_set($comercioexterior,NULL,NULL, "C:\\xampp\\htdocs\\comexAzureMySQLDatabase\\Connections\\BaltimoreCyberTrustRoot.crt.pem", NULL, NULL);

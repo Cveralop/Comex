@@ -7,7 +7,7 @@
 $hostname_basecomercial = 'comexdbtest.mysql.database.azure.co';
 $database_basecomercial = "basecomercial";
 $username_basecomercial = 'xmsadmin@comexdbtest';
-$password_basecomercial = 'Manquehue01..';
+$password_basecomercial = 'Microsoft01*';
 
 $basecomercial = mysqli_init();
 mysqli_ssl_set($basecomercial,NULL,NULL, "BaltimoreCyberTrustRoot.crt.pem", NULL, NULL);

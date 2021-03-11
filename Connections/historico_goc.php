@@ -7,7 +7,7 @@
 $hostname_historico_goc = 'comexdbtest.mysql.database.azure.com';
 $database_historico_goc = 'comex_historico'; 
 $username_historico_goc = 'xmsadmin@comexdbtest';
-$password_historico_goc = 'Manquehue01..';
+$password_historico_goc = 'Microsoft01*';
 
 
 $historico_goc = mysqli_init();

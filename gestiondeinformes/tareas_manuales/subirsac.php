@@ -47,7 +47,7 @@ if (!((isset($_SESSION['MM_Username'])) && (isAuthorized("", $MM_authorizedUsers
   <title>Subir Archivo SAC</title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
   <style type="text/css">
-    <!--
+  
     @import url("../../operaciones/gestionmedios/estilos/estilo12.css");
 
     body,
@@ -73,14 +73,16 @@ if (!((isset($_SESSION['MM_Username'])) && (isAuthorized("", $MM_authorizedUsers
       font-weight: bold;
       color: #FFFFFF;
     }
-    -->
+
   </style>
+
   <script language="JavaScript" type="text/JavaScript">
     var segundos=1200
-var direccion='http://pdpto38:8303/comex/index.php' 
-milisegundos=segundos*1000 
-window.setTimeout("window.location.replace(direccion);",milisegundos);
-</script>
+    var direccion='../../cierre.php' 
+    milisegundos=segundos*1000 
+    window.setTimeout("window.location.replace(direccion);",milisegundos);
+  </script>
+
   <link rel="shortcut icon" href="../../comex/imagenes/barraweb/favicon.ico">
   <link rel="icon" type="image/gif" href="../../comex/imagenes/barraweb/animated_favicon1.gif">
 </head>
@@ -108,7 +110,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
     <table width="95%" border="1" align="center" bordercolor="#000000">
       <tr>
         <td>
-          <form name="archivos" method="post" action="subirsac.php" enctype="multipart/form-data" target="_blank">
+          <form name="archivos" method="post" action="../../prueba.php" enctype="multipart/form-data" target="_blank">
             <input name="archivo1" type="file" size="60" maxlength="60">
             <input name="Submit" type="submit" value="Subir">
           </form>
@@ -124,5 +126,5 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
   ?>
   <tr>
   </body>
-
+  <!-- subirsac.php -->
 </html>
