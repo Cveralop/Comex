@@ -110,7 +110,7 @@ if (!((isset($_SESSION['MM_Username'])) && (isAuthorized("", $MM_authorizedUsers
     <table width="95%" border="1" align="center" bordercolor="#000000">
       <tr>
         <td>
-          <form name="archivos" method="post" action="../../prueba.php" enctype="multipart/form-data" target="_blank">
+          <form name="archivos" method="post" action="cargasac.php" enctype="multipart/form-data" target="_blank">
             <input name="archivo1" type="file" size="60" maxlength="60">
             <input name="Submit" type="submit" value="Subir">
           </form>
@@ -119,7 +119,7 @@ if (!((isset($_SESSION['MM_Username'])) && (isAuthorized("", $MM_authorizedUsers
     </table>
   <?php
 } else {
-  $directorio = "D:\\comercioexterior\\sac\\";
+  $directorio = "C:\\comercioexterior\\sac\\";
   copy($archivo1, $directorio . $archivo1_name);
   echo  "El archivo: " . $archivo1_name . "<br>Fu&eacute; subido al servidor.<br>";
 }

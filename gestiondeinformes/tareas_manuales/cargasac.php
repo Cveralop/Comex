@@ -103,7 +103,7 @@ $replacepunto = mysqli_query($comercioexterior, $query_replacepunto) or die(mysq
 #Cargar Base SAC desde Base SAC Transitorio
 mysqli_select_db($comercioexterior, $database_comercioexterior);
 $query_excepciones = sprintf("INSERT INTO sac (nro_req, fecha_inicio, fecha_creacion, rut_cliente, nombre_cliente, segmento, especialista, tipificacion, etapa_actual, estado_gestion_etapa, tiempo_estandar_etapa, unidad_actual, ingresado_por, punto_contacto, lugar_contacto)
-SELECT sactransit.nro_req, sactransit.fecha_inicio, sactransit.fecha_creacion, sactransit.rut_cliente, sactransit.nombre_cliente, cliente.segmento, cliente.especialista, sactransit.tipificacion, sactransit.etapa_actual, sactransit.estado_gestion_etapa, sactransit.tiempo_estandar_etapa, sactransit.unidad_actual, sactransit.ingresado_por, sactransit.punto_contacto, sactransit.lugar_contacto FROM sactransit LEFT JOIN cliente ON sactransit.rut_cliente = cliente.rut_cliente", GetSQLValueString($colname_excepciones, "text"),GetSQLValueString($colname1_excepciones, "text"),GetSQLValueString($colname2_excepciones, "text"));
+SELECT sactransit.nro_req, sactransit.fecha_inicio, sactransit.fecha_creacion, sactransit.rut_cliente, sactransit.nombre_cliente, cliente.segmento, cliente.especialista, sactransit.tipificacion, sactransit.etapa_actual, sactransit.estado_gestion_etapa, sactransit.tiempo_estandar_etapa, sactransit.unidad_actual, sactransit.ingresado_por, sactransit.punto_contacto, sactransit.lugar_contacto FROM sactransit LEFT JOIN cliente ON sactransit.rut_cliente = cliente.rut_cliente");
 $excepciones = mysqli_query($comercioexterior, $query_excepciones) or die(mysqli_error($comercioexterior));
 
 #Registro termino LOG'S Carga SAC
@@ -152,12 +152,13 @@ a:active {
 </style>
     <script> 
 //Script original de KarlanKas para forosdelweb.com 
-var segundos=5
-var direccion='http://pdpto38:8303/comex/gestiondeinformes/gestiondeinformes.php' 
+var segundos=1200
+var direccion='../../cierre.php' 
 milisegundos=segundos*1000 
 window.setTimeout("window.location.replace(direccion);",milisegundos); 
 </script>
-<script language="javascript">
+<script 
+language="javascript">
 			var tiempo = 3;
 			function cuentaRegresiva(){
 				if (tiempo > 0){
@@ -170,6 +171,7 @@ window.setTimeout("window.location.replace(direccion);",milisegundos);
 				setTimeout("cuentaRegresiva()",1000)
 			}
 </script>
+
 	<body onload="cuentaRegresiva()">
 <link href="../../estilos/estilo12.css" rel="stylesheet" type="text/css" />
 </head>
